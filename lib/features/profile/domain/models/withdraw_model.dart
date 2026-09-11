@@ -1,4 +1,4 @@
-import 'package:sixvalley_vendor_app/features/shop/domain/models/payment_information_model.dart';
+import 'package:cobes_marketplace_vendor/features/shop/domain/models/payment_information_model.dart';
 
 class WithdrawModel {
   int? id;

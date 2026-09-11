@@ -1,6 +1,6 @@
-import 'package:sixvalley_vendor_app/features/product/domain/models/product_model.dart';
-import 'package:sixvalley_vendor_app/features/restock/domain/repositories/restock_repository_interface.dart';
-import 'package:sixvalley_vendor_app/features/restock/domain/services/restock_service_interface.dart';
+import 'package:cobes_marketplace_vendor/features/product/domain/models/product_model.dart';
+import 'package:cobes_marketplace_vendor/features/restock/domain/repositories/restock_repository_interface.dart';
+import 'package:cobes_marketplace_vendor/features/restock/domain/services/restock_service_interface.dart';
 
 class RestockService implements RestockServiceInterface{
   RestockRepositoryInterface restockRepositoryInterface;

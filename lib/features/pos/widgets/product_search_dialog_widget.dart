@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:sixvalley_vendor_app/features/product/controllers/product_controller.dart';
-import 'package:sixvalley_vendor_app/localization/language_constrants.dart';
-import 'package:sixvalley_vendor_app/utill/dimensions.dart';
-import 'package:sixvalley_vendor_app/features/pos/widgets/searched_product_item_widget.dart';
-import 'package:sixvalley_vendor_app/utill/styles.dart';
+import 'package:cobes_marketplace_vendor/features/product/controllers/product_controller.dart';
+import 'package:cobes_marketplace_vendor/localization/language_constrants.dart';
+import 'package:cobes_marketplace_vendor/utill/dimensions.dart';
+import 'package:cobes_marketplace_vendor/features/pos/widgets/searched_product_item_widget.dart';
+import 'package:cobes_marketplace_vendor/utill/styles.dart';
 
 class ProductSearchDialogWidget extends StatelessWidget {
   const ProductSearchDialogWidget({Key? key}) : super(key: key);

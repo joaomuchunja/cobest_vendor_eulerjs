@@ -1,9 +1,9 @@
 import 'dart:io';
 
 import 'package:flutter/cupertino.dart';
-import 'package:sixvalley_vendor_app/features/addProduct/domain/models/add_product_model.dart';
-import 'package:sixvalley_vendor_app/features/product/domain/models/product_model.dart';
-import 'package:sixvalley_vendor_app/features/addProduct/domain/models/image_model.dart';
+import 'package:cobes_marketplace_vendor/features/addProduct/domain/models/add_product_model.dart';
+import 'package:cobes_marketplace_vendor/features/product/domain/models/product_model.dart';
+import 'package:cobes_marketplace_vendor/features/addProduct/domain/models/image_model.dart';
 
 abstract class AddProductServiceInterface {
   Future<dynamic> getAttributeList(String languageCode);

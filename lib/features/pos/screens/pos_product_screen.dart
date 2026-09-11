@@ -1,20 +1,20 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:sixvalley_vendor_app/features/product/controllers/category_controller.dart';
-import 'package:sixvalley_vendor_app/features/product/domain/models/product_model.dart';
-import 'package:sixvalley_vendor_app/localization/language_constrants.dart';
-import 'package:sixvalley_vendor_app/features/product/controllers/product_controller.dart';
-import 'package:sixvalley_vendor_app/main.dart';
-import 'package:sixvalley_vendor_app/utill/dimensions.dart';
-import 'package:sixvalley_vendor_app/utill/images.dart';
-import 'package:sixvalley_vendor_app/common/basewidgets/custom_app_bar_widget.dart';
-import 'package:sixvalley_vendor_app/common/basewidgets/custom_delegate_widget.dart';
-import 'package:sixvalley_vendor_app/common/basewidgets/custom_search_field_widget.dart';
-import 'package:sixvalley_vendor_app/common/basewidgets/no_data_screen.dart';
-import 'package:sixvalley_vendor_app/features/pos/widgets/category_filter_botto_sheet_widget.dart';
-import 'package:sixvalley_vendor_app/features/pos/widgets/pos_product_list_widget.dart';
-import 'package:sixvalley_vendor_app/features/pos/widgets/pos_product_shimmer_widget.dart';
-import 'package:sixvalley_vendor_app/features/pos/widgets/product_search_dialog_widget.dart';
+import 'package:cobes_marketplace_vendor/features/product/controllers/category_controller.dart';
+import 'package:cobes_marketplace_vendor/features/product/domain/models/product_model.dart';
+import 'package:cobes_marketplace_vendor/localization/language_constrants.dart';
+import 'package:cobes_marketplace_vendor/features/product/controllers/product_controller.dart';
+import 'package:cobes_marketplace_vendor/main.dart';
+import 'package:cobes_marketplace_vendor/utill/dimensions.dart';
+import 'package:cobes_marketplace_vendor/utill/images.dart';
+import 'package:cobes_marketplace_vendor/common/basewidgets/custom_app_bar_widget.dart';
+import 'package:cobes_marketplace_vendor/common/basewidgets/custom_delegate_widget.dart';
+import 'package:cobes_marketplace_vendor/common/basewidgets/custom_search_field_widget.dart';
+import 'package:cobes_marketplace_vendor/common/basewidgets/no_data_screen.dart';
+import 'package:cobes_marketplace_vendor/features/pos/widgets/category_filter_botto_sheet_widget.dart';
+import 'package:cobes_marketplace_vendor/features/pos/widgets/pos_product_list_widget.dart';
+import 'package:cobes_marketplace_vendor/features/pos/widgets/pos_product_shimmer_widget.dart';
+import 'package:cobes_marketplace_vendor/features/pos/widgets/product_search_dialog_widget.dart';
 
 class POSProductScreen extends StatefulWidget {
   const POSProductScreen({Key? key}) : super(key: key);

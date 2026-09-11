@@ -2,9 +2,9 @@
 import 'package:file_picker/file_picker.dart';
 import 'package:http/http.dart' as http;
 import 'package:image_picker/image_picker.dart';
-import 'package:sixvalley_vendor_app/data/model/response/base/api_response.dart';
-import 'package:sixvalley_vendor_app/features/chat/domain/models/message_body.dart';
-import 'package:sixvalley_vendor_app/interface/repository_interface.dart';
+import 'package:cobes_marketplace_vendor/data/model/response/base/api_response.dart';
+import 'package:cobes_marketplace_vendor/features/chat/domain/models/message_body.dart';
+import 'package:cobes_marketplace_vendor/interface/repository_interface.dart';
 
 abstract class ChatRepositoryInterface implements RepositoryInterface{
   Future<ApiResponse> getChatList(String type, int offset);

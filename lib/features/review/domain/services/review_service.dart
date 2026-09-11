@@ -1,7 +1,7 @@
 
 
-import 'package:sixvalley_vendor_app/features/review/domain/repositories/product_review_repository_interface.dart';
-import 'package:sixvalley_vendor_app/features/review/domain/services/review_service_interface.dart';
+import 'package:cobes_marketplace_vendor/features/review/domain/repositories/product_review_repository_interface.dart';
+import 'package:cobes_marketplace_vendor/features/review/domain/services/review_service_interface.dart';
 
 class ReviewService implements ReviewServiceInterface{
   final ProductReviewRepositoryInterface productReviewRepoInterface;

@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
-import 'package:sixvalley_vendor_app/features/order/domain/models/business_analytics_filter_data.dart';
-import 'package:sixvalley_vendor_app/features/profile/domain/models/profile_body.dart';
-import 'package:sixvalley_vendor_app/data/model/response/base/api_response.dart';
-import 'package:sixvalley_vendor_app/data/model/response/response_model.dart';
-import 'package:sixvalley_vendor_app/features/bank_info/domain/services/bank_info_service_interface.dart';
-import 'package:sixvalley_vendor_app/features/profile/domain/models/profile_info.dart';
-import 'package:sixvalley_vendor_app/helper/api_checker.dart';
+import 'package:cobes_marketplace_vendor/features/order/domain/models/business_analytics_filter_data.dart';
+import 'package:cobes_marketplace_vendor/features/profile/domain/models/profile_body.dart';
+import 'package:cobes_marketplace_vendor/data/model/response/base/api_response.dart';
+import 'package:cobes_marketplace_vendor/data/model/response/response_model.dart';
+import 'package:cobes_marketplace_vendor/features/bank_info/domain/services/bank_info_service_interface.dart';
+import 'package:cobes_marketplace_vendor/features/profile/domain/models/profile_info.dart';
+import 'package:cobes_marketplace_vendor/helper/api_checker.dart';
 
 class BankInfoController extends ChangeNotifier {
   final BankInfoServiceInterface bankInfoServiceInterface;

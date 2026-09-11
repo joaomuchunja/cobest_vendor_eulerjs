@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:sixvalley_vendor_app/common/basewidgets/custom_image_widget.dart';
+import 'package:cobes_marketplace_vendor/common/basewidgets/custom_image_widget.dart';
 
 
 

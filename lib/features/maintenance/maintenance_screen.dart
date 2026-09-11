@@ -1,15 +1,15 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:sixvalley_vendor_app/features/auth/controllers/auth_controller.dart';
-import 'package:sixvalley_vendor_app/features/auth/screens/auth_screen.dart';
-import 'package:sixvalley_vendor_app/features/dashboard/screens/dashboard_screen.dart';
-import 'package:sixvalley_vendor_app/features/splash/controllers/splash_controller.dart';
-import 'package:sixvalley_vendor_app/features/splash/domain/models/config_model.dart';
-import 'package:sixvalley_vendor_app/localization/language_constrants.dart';
-import 'package:sixvalley_vendor_app/main.dart';
-import 'package:sixvalley_vendor_app/utill/dimensions.dart';
-import 'package:sixvalley_vendor_app/utill/images.dart';
-import 'package:sixvalley_vendor_app/utill/styles.dart';
+import 'package:cobes_marketplace_vendor/features/auth/controllers/auth_controller.dart';
+import 'package:cobes_marketplace_vendor/features/auth/screens/auth_screen.dart';
+import 'package:cobes_marketplace_vendor/features/dashboard/screens/dashboard_screen.dart';
+import 'package:cobes_marketplace_vendor/features/splash/controllers/splash_controller.dart';
+import 'package:cobes_marketplace_vendor/features/splash/domain/models/config_model.dart';
+import 'package:cobes_marketplace_vendor/localization/language_constrants.dart';
+import 'package:cobes_marketplace_vendor/main.dart';
+import 'package:cobes_marketplace_vendor/utill/dimensions.dart';
+import 'package:cobes_marketplace_vendor/utill/images.dart';
+import 'package:cobes_marketplace_vendor/utill/styles.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 class MaintenanceScreen extends StatefulWidget {

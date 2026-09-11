@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:sixvalley_vendor_app/features/pos/controllers/barcode_scan_controller.dart';
-import 'package:sixvalley_vendor_app/localization/language_constrants.dart';
-import 'package:sixvalley_vendor_app/features/dashboard/controllers/bottom_menu_controller.dart';
-import 'package:sixvalley_vendor_app/utill/dimensions.dart';
-import 'package:sixvalley_vendor_app/utill/images.dart';
-import 'package:sixvalley_vendor_app/features/dashboard/widgets/gradient_border_widget.dart';
-import 'package:sixvalley_vendor_app/features/menu/widgets/menu_widget.dart';
+import 'package:cobes_marketplace_vendor/features/pos/controllers/barcode_scan_controller.dart';
+import 'package:cobes_marketplace_vendor/localization/language_constrants.dart';
+import 'package:cobes_marketplace_vendor/features/dashboard/controllers/bottom_menu_controller.dart';
+import 'package:cobes_marketplace_vendor/utill/dimensions.dart';
+import 'package:cobes_marketplace_vendor/utill/images.dart';
+import 'package:cobes_marketplace_vendor/features/dashboard/widgets/gradient_border_widget.dart';
+import 'package:cobes_marketplace_vendor/features/menu/widgets/menu_widget.dart';
 
 
 

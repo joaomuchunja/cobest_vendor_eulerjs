@@ -1,21 +1,21 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:provider/provider.dart';
-import 'package:sixvalley_vendor_app/common/basewidgets/custom_asset_image_widget.dart';
-import 'package:sixvalley_vendor_app/common/basewidgets/custom_snackbar_widget.dart';
-import 'package:sixvalley_vendor_app/common/basewidgets/textfeild/custom_text_feild_widget.dart';
-import 'package:sixvalley_vendor_app/common/basewidgets/textfeild/guideline_warning_widget.dart';
-import 'package:sixvalley_vendor_app/features/profile/domain/models/withdraw_model.dart';
-import 'package:sixvalley_vendor_app/features/shop/screens/shop_screen.dart';
-import 'package:sixvalley_vendor_app/features/wallet/controllers/wallet_controller.dart';
-import 'package:sixvalley_vendor_app/helper/price_converter.dart';
-import 'package:sixvalley_vendor_app/localization/language_constrants.dart';
-import 'package:sixvalley_vendor_app/features/profile/controllers/profile_controller.dart';
-import 'package:sixvalley_vendor_app/features/splash/controllers/splash_controller.dart';
-import 'package:sixvalley_vendor_app/theme/controllers/theme_controller.dart';
-import 'package:sixvalley_vendor_app/utill/dimensions.dart';
-import 'package:sixvalley_vendor_app/utill/images.dart';
-import 'package:sixvalley_vendor_app/utill/styles.dart';
+import 'package:cobes_marketplace_vendor/common/basewidgets/custom_asset_image_widget.dart';
+import 'package:cobes_marketplace_vendor/common/basewidgets/custom_snackbar_widget.dart';
+import 'package:cobes_marketplace_vendor/common/basewidgets/textfeild/custom_text_feild_widget.dart';
+import 'package:cobes_marketplace_vendor/common/basewidgets/textfeild/guideline_warning_widget.dart';
+import 'package:cobes_marketplace_vendor/features/profile/domain/models/withdraw_model.dart';
+import 'package:cobes_marketplace_vendor/features/shop/screens/shop_screen.dart';
+import 'package:cobes_marketplace_vendor/features/wallet/controllers/wallet_controller.dart';
+import 'package:cobes_marketplace_vendor/helper/price_converter.dart';
+import 'package:cobes_marketplace_vendor/localization/language_constrants.dart';
+import 'package:cobes_marketplace_vendor/features/profile/controllers/profile_controller.dart';
+import 'package:cobes_marketplace_vendor/features/splash/controllers/splash_controller.dart';
+import 'package:cobes_marketplace_vendor/theme/controllers/theme_controller.dart';
+import 'package:cobes_marketplace_vendor/utill/dimensions.dart';
+import 'package:cobes_marketplace_vendor/utill/images.dart';
+import 'package:cobes_marketplace_vendor/utill/styles.dart';
 
 import '../../main.dart';
 

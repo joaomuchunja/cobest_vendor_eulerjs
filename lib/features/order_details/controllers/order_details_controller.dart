@@ -9,17 +9,17 @@ import 'package:open_file_manager/open_file_manager.dart';
 import 'package:path_provider/path_provider.dart';
 import 'package:permission_handler/permission_handler.dart';
 import 'package:provider/provider.dart';
-import 'package:sixvalley_vendor_app/common/basewidgets/custom_snackbar_widget.dart';
-import 'package:sixvalley_vendor_app/data/model/response/base/api_response.dart';
-import 'package:sixvalley_vendor_app/features/order/controllers/order_controller.dart';
-import 'package:sixvalley_vendor_app/features/order/domain/models/order_model.dart';
-import 'package:sixvalley_vendor_app/features/order_details/domain/models/order_details_model.dart';
-import 'package:sixvalley_vendor_app/features/order_details/domain/models/order_setup_model.dart';
-import 'package:sixvalley_vendor_app/features/order_details/domain/services/order_details_service_interface.dart';
-import 'package:sixvalley_vendor_app/helper/api_checker.dart';
-import 'package:sixvalley_vendor_app/localization/language_constrants.dart';
-import 'package:sixvalley_vendor_app/main.dart';
-import 'package:sixvalley_vendor_app/utill/images.dart';
+import 'package:cobes_marketplace_vendor/common/basewidgets/custom_snackbar_widget.dart';
+import 'package:cobes_marketplace_vendor/data/model/response/base/api_response.dart';
+import 'package:cobes_marketplace_vendor/features/order/controllers/order_controller.dart';
+import 'package:cobes_marketplace_vendor/features/order/domain/models/order_model.dart';
+import 'package:cobes_marketplace_vendor/features/order_details/domain/models/order_details_model.dart';
+import 'package:cobes_marketplace_vendor/features/order_details/domain/models/order_setup_model.dart';
+import 'package:cobes_marketplace_vendor/features/order_details/domain/services/order_details_service_interface.dart';
+import 'package:cobes_marketplace_vendor/helper/api_checker.dart';
+import 'package:cobes_marketplace_vendor/localization/language_constrants.dart';
+import 'package:cobes_marketplace_vendor/main.dart';
+import 'package:cobes_marketplace_vendor/utill/images.dart';
 
 class OrderDetailsController extends ChangeNotifier{
   final OrderDetailsServiceInterface orderDetailsServiceInterface;

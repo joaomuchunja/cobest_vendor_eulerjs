@@ -4,14 +4,14 @@ import 'package:flutter_downloader/flutter_downloader.dart';
 import 'package:open_file_manager/open_file_manager.dart';
 import 'package:path_provider/path_provider.dart';
 import 'package:permission_handler/permission_handler.dart';
-import 'package:sixvalley_vendor_app/common/basewidgets/custom_snackbar_widget.dart';
-import 'package:sixvalley_vendor_app/data/model/response/base/api_response.dart';
-import 'package:sixvalley_vendor_app/features/product/domain/models/product_model.dart';
-import 'package:sixvalley_vendor_app/features/product_details/domain/services/product_details_service_interface.dart';
-import 'package:sixvalley_vendor_app/helper/api_checker.dart';
-import 'package:sixvalley_vendor_app/helper/product_helper.dart';
-import 'package:sixvalley_vendor_app/localization/language_constrants.dart';
-import 'package:sixvalley_vendor_app/main.dart';
+import 'package:cobes_marketplace_vendor/common/basewidgets/custom_snackbar_widget.dart';
+import 'package:cobes_marketplace_vendor/data/model/response/base/api_response.dart';
+import 'package:cobes_marketplace_vendor/features/product/domain/models/product_model.dart';
+import 'package:cobes_marketplace_vendor/features/product_details/domain/services/product_details_service_interface.dart';
+import 'package:cobes_marketplace_vendor/helper/api_checker.dart';
+import 'package:cobes_marketplace_vendor/helper/product_helper.dart';
+import 'package:cobes_marketplace_vendor/localization/language_constrants.dart';
+import 'package:cobes_marketplace_vendor/main.dart';
 
 class ProductDetailsController extends ChangeNotifier{
 

@@ -10,58 +10,58 @@ import 'package:flutter_local_notifications/flutter_local_notifications.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:permission_handler/permission_handler.dart';
 import 'package:provider/provider.dart';
-import 'package:sixvalley_vendor_app/common/basewidgets/custom_asset_image_widget.dart';
-import 'package:sixvalley_vendor_app/features/addProduct/controllers/add_product_image_controller.dart';
-import 'package:sixvalley_vendor_app/features/addProduct/controllers/digital_product_controller.dart';
-import 'package:sixvalley_vendor_app/features/addProduct/controllers/variation_controller.dart';
-import 'package:sixvalley_vendor_app/features/barcode/controllers/barcode_controller.dart';
-import 'package:sixvalley_vendor_app/features/clearance_sale/controllers/clearance_sale_controller.dart';
-import 'package:sixvalley_vendor_app/features/dashboard/widgets/custom_tutorial_dialog.dart';
-import 'package:sixvalley_vendor_app/features/notification/controllers/notification_controller.dart';
-import 'package:sixvalley_vendor_app/features/order_details/controllers/order_details_controller.dart';
-import 'package:sixvalley_vendor_app/features/pos/controllers/barcode_scan_controller.dart';
-import 'package:sixvalley_vendor_app/features/pos/controllers/coupon_discount_controller.dart';
-import 'package:sixvalley_vendor_app/features/pos/controllers/customer_controller.dart';
-import 'package:sixvalley_vendor_app/features/product/controllers/category_controller.dart';
-import 'package:sixvalley_vendor_app/features/product/widgets/cookies_widget.dart';
-import 'package:sixvalley_vendor_app/features/product_details/controllers/product_details_controller.dart';
-import 'package:sixvalley_vendor_app/features/restock/controllers/restock_controller.dart';
-import 'package:sixvalley_vendor_app/features/wallet/controllers/wallet_controller.dart';
-import 'package:sixvalley_vendor_app/localization/app_localization.dart';
-import 'package:sixvalley_vendor_app/features/auth/controllers/auth_controller.dart';
-import 'package:sixvalley_vendor_app/features/settings/controllers/business_controller.dart';
-import 'package:sixvalley_vendor_app/features/pos/controllers/cart_controller.dart';
-import 'package:sixvalley_vendor_app/features/chat/controllers/chat_controller.dart';
-import 'package:sixvalley_vendor_app/features/coupon/controllers/coupon_controller.dart';
-import 'package:sixvalley_vendor_app/features/delivery_man/controllers/delivery_man_controller.dart';
-import 'package:sixvalley_vendor_app/features/emergency_contract/controllers/emergency_contact_controller.dart';
-import 'package:sixvalley_vendor_app/features/language/controllers/language_controller.dart';
-import 'package:sixvalley_vendor_app/localization/controllers/localization_controller.dart';
-import 'package:sixvalley_vendor_app/features/dashboard/controllers/bottom_menu_controller.dart';
-import 'package:sixvalley_vendor_app/features/order/controllers/location_controller.dart';
-import 'package:sixvalley_vendor_app/features/order/controllers/order_controller.dart';
-import 'package:sixvalley_vendor_app/features/product/controllers/product_controller.dart';
-import 'package:sixvalley_vendor_app/features/review/controllers/product_review_controller.dart';
-import 'package:sixvalley_vendor_app/features/profile/controllers/profile_controller.dart';
-import 'package:sixvalley_vendor_app/features/refund/controllers/refund_controller.dart';
-import 'package:sixvalley_vendor_app/features/addProduct/controllers/add_product_controller.dart';
-import 'package:sixvalley_vendor_app/features/shipping/controllers/shipping_controller.dart';
-import 'package:sixvalley_vendor_app/features/shop/controllers/shop_controller.dart';
-import 'package:sixvalley_vendor_app/features/splash/controllers/splash_controller.dart';
-import 'package:sixvalley_vendor_app/notification/models/notification_body.dart';
-import 'package:sixvalley_vendor_app/theme/controllers/theme_controller.dart';
-import 'package:sixvalley_vendor_app/features/bank_info/controllers/bank_info_controller.dart';
-import 'package:sixvalley_vendor_app/features/transaction/controllers/transaction_controller.dart';
-import 'package:sixvalley_vendor_app/theme/dark_theme.dart';
-import 'package:sixvalley_vendor_app/theme/light_theme.dart';
-import 'package:sixvalley_vendor_app/utill/app_constants.dart';
-import 'package:sixvalley_vendor_app/features/splash/screens/splash_screen.dart';
-import 'package:sixvalley_vendor_app/utill/dimensions.dart';
-import 'package:sixvalley_vendor_app/utill/images.dart';
+import 'package:cobes_marketplace_vendor/common/basewidgets/custom_asset_image_widget.dart';
+import 'package:cobes_marketplace_vendor/features/addProduct/controllers/add_product_image_controller.dart';
+import 'package:cobes_marketplace_vendor/features/addProduct/controllers/digital_product_controller.dart';
+import 'package:cobes_marketplace_vendor/features/addProduct/controllers/variation_controller.dart';
+import 'package:cobes_marketplace_vendor/features/barcode/controllers/barcode_controller.dart';
+import 'package:cobes_marketplace_vendor/features/clearance_sale/controllers/clearance_sale_controller.dart';
+import 'package:cobes_marketplace_vendor/features/dashboard/widgets/custom_tutorial_dialog.dart';
+import 'package:cobes_marketplace_vendor/features/notification/controllers/notification_controller.dart';
+import 'package:cobes_marketplace_vendor/features/order_details/controllers/order_details_controller.dart';
+import 'package:cobes_marketplace_vendor/features/pos/controllers/barcode_scan_controller.dart';
+import 'package:cobes_marketplace_vendor/features/pos/controllers/coupon_discount_controller.dart';
+import 'package:cobes_marketplace_vendor/features/pos/controllers/customer_controller.dart';
+import 'package:cobes_marketplace_vendor/features/product/controllers/category_controller.dart';
+import 'package:cobes_marketplace_vendor/features/product/widgets/cookies_widget.dart';
+import 'package:cobes_marketplace_vendor/features/product_details/controllers/product_details_controller.dart';
+import 'package:cobes_marketplace_vendor/features/restock/controllers/restock_controller.dart';
+import 'package:cobes_marketplace_vendor/features/wallet/controllers/wallet_controller.dart';
+import 'package:cobes_marketplace_vendor/localization/app_localization.dart';
+import 'package:cobes_marketplace_vendor/features/auth/controllers/auth_controller.dart';
+import 'package:cobes_marketplace_vendor/features/settings/controllers/business_controller.dart';
+import 'package:cobes_marketplace_vendor/features/pos/controllers/cart_controller.dart';
+import 'package:cobes_marketplace_vendor/features/chat/controllers/chat_controller.dart';
+import 'package:cobes_marketplace_vendor/features/coupon/controllers/coupon_controller.dart';
+import 'package:cobes_marketplace_vendor/features/delivery_man/controllers/delivery_man_controller.dart';
+import 'package:cobes_marketplace_vendor/features/emergency_contract/controllers/emergency_contact_controller.dart';
+import 'package:cobes_marketplace_vendor/features/language/controllers/language_controller.dart';
+import 'package:cobes_marketplace_vendor/localization/controllers/localization_controller.dart';
+import 'package:cobes_marketplace_vendor/features/dashboard/controllers/bottom_menu_controller.dart';
+import 'package:cobes_marketplace_vendor/features/order/controllers/location_controller.dart';
+import 'package:cobes_marketplace_vendor/features/order/controllers/order_controller.dart';
+import 'package:cobes_marketplace_vendor/features/product/controllers/product_controller.dart';
+import 'package:cobes_marketplace_vendor/features/review/controllers/product_review_controller.dart';
+import 'package:cobes_marketplace_vendor/features/profile/controllers/profile_controller.dart';
+import 'package:cobes_marketplace_vendor/features/refund/controllers/refund_controller.dart';
+import 'package:cobes_marketplace_vendor/features/addProduct/controllers/add_product_controller.dart';
+import 'package:cobes_marketplace_vendor/features/shipping/controllers/shipping_controller.dart';
+import 'package:cobes_marketplace_vendor/features/shop/controllers/shop_controller.dart';
+import 'package:cobes_marketplace_vendor/features/splash/controllers/splash_controller.dart';
+import 'package:cobes_marketplace_vendor/notification/models/notification_body.dart';
+import 'package:cobes_marketplace_vendor/theme/controllers/theme_controller.dart';
+import 'package:cobes_marketplace_vendor/features/bank_info/controllers/bank_info_controller.dart';
+import 'package:cobes_marketplace_vendor/features/transaction/controllers/transaction_controller.dart';
+import 'package:cobes_marketplace_vendor/theme/dark_theme.dart';
+import 'package:cobes_marketplace_vendor/theme/light_theme.dart';
+import 'package:cobes_marketplace_vendor/utill/app_constants.dart';
+import 'package:cobes_marketplace_vendor/features/splash/screens/splash_screen.dart';
+import 'package:cobes_marketplace_vendor/utill/dimensions.dart';
+import 'package:cobes_marketplace_vendor/utill/images.dart';
 import 'di_container.dart' as di;
 import 'notification/my_notification.dart';
-import 'package:sixvalley_vendor_app/common/controller/show_bottom_sheet_controller.dart';
-import 'package:sixvalley_vendor_app/common/controller/tutorial_controller.dart';
+import 'package:cobes_marketplace_vendor/common/controller/show_bottom_sheet_controller.dart';
+import 'package:cobes_marketplace_vendor/common/controller/tutorial_controller.dart';
 
 
 final FlutterLocalNotificationsPlugin flutterLocalNotificationsPlugin = FlutterLocalNotificationsPlugin();
@@ -71,25 +71,8 @@ Future<void> main() async {
   HttpOverrides.global = MyHttpOverrides();
   WidgetsFlutterBinding.ensureInitialized();
 
-  if(Firebase.apps.isEmpty){
-    if(Platform.isAndroid){
-      try{
-        ///todo you need to configure that firebase Option with your own firebase to run your app
-        await Firebase.initializeApp(
-          name: 'your_project_name_here',
-          options: const FirebaseOptions(
-            apiKey: "current_key here",
-            projectId: "mobilesdk_app_id here",
-            messagingSenderId: "project_number here",
-            appId: "project_id here"
-          )
-        );
-      } finally{
-        await Firebase.initializeApp();
-      }
-    }else {
-      await Firebase.initializeApp();
-    }
+  if (Firebase.apps.isEmpty) {
+    await Firebase.initializeApp();
   }
   await FlutterDownloader.initialize(debug: true , ignoreSsl: true);
   await di.init();

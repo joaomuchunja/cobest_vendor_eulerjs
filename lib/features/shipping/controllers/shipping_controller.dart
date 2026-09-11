@@ -1,21 +1,21 @@
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:sixvalley_vendor_app/data/model/response/base/api_response.dart';
-import 'package:sixvalley_vendor_app/data/model/response/base/error_response.dart';
-import 'package:sixvalley_vendor_app/features/auth/controllers/auth_controller.dart';
-import 'package:sixvalley_vendor_app/features/shipping/domain/models/category_wise_shipping_model.dart';
-import 'package:sixvalley_vendor_app/features/shipping/domain/models/shipping_model.dart';
-import 'package:sixvalley_vendor_app/features/shipping/domain/services/shipping_service_interface.dart';
-import 'package:sixvalley_vendor_app/helper/api_checker.dart';
-import 'package:sixvalley_vendor_app/helper/price_converter.dart';
-import 'package:sixvalley_vendor_app/localization/language_constrants.dart';
-import 'package:sixvalley_vendor_app/main.dart';
-import 'package:sixvalley_vendor_app/features/splash/controllers/splash_controller.dart';
-import 'package:sixvalley_vendor_app/common/basewidgets/custom_snackbar_widget.dart';
-import 'package:sixvalley_vendor_app/features/settings/screens/order_wise_shipping_list_screen.dart';
-import 'package:sixvalley_vendor_app/features/shipping/screens/category_wise_shipping_screen.dart';
-import 'package:sixvalley_vendor_app/features/shipping/widgets/product_wise_shipping_widget.dart';
+import 'package:cobes_marketplace_vendor/data/model/response/base/api_response.dart';
+import 'package:cobes_marketplace_vendor/data/model/response/base/error_response.dart';
+import 'package:cobes_marketplace_vendor/features/auth/controllers/auth_controller.dart';
+import 'package:cobes_marketplace_vendor/features/shipping/domain/models/category_wise_shipping_model.dart';
+import 'package:cobes_marketplace_vendor/features/shipping/domain/models/shipping_model.dart';
+import 'package:cobes_marketplace_vendor/features/shipping/domain/services/shipping_service_interface.dart';
+import 'package:cobes_marketplace_vendor/helper/api_checker.dart';
+import 'package:cobes_marketplace_vendor/helper/price_converter.dart';
+import 'package:cobes_marketplace_vendor/localization/language_constrants.dart';
+import 'package:cobes_marketplace_vendor/main.dart';
+import 'package:cobes_marketplace_vendor/features/splash/controllers/splash_controller.dart';
+import 'package:cobes_marketplace_vendor/common/basewidgets/custom_snackbar_widget.dart';
+import 'package:cobes_marketplace_vendor/features/settings/screens/order_wise_shipping_list_screen.dart';
+import 'package:cobes_marketplace_vendor/features/shipping/screens/category_wise_shipping_screen.dart';
+import 'package:cobes_marketplace_vendor/features/shipping/widgets/product_wise_shipping_widget.dart';
 
 
 class ShippingController extends ChangeNotifier {

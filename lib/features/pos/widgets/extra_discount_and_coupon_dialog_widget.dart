@@ -1,15 +1,15 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:sixvalley_vendor_app/common/basewidgets/custom_snackbar_widget.dart' show SnackBarType, showCustomSnackBarWidget;
-import 'package:sixvalley_vendor_app/features/pos/controllers/coupon_discount_controller.dart';
-import 'package:sixvalley_vendor_app/localization/language_constrants.dart';
-import 'package:sixvalley_vendor_app/features/pos/controllers/cart_controller.dart';
-import 'package:sixvalley_vendor_app/main.dart';
-import 'package:sixvalley_vendor_app/utill/dimensions.dart';
-import 'package:sixvalley_vendor_app/utill/styles.dart';
-import 'package:sixvalley_vendor_app/common/basewidgets/custom_button_widget.dart';
-import 'package:sixvalley_vendor_app/common/basewidgets/custom_field_with_title_widget.dart';
-import 'package:sixvalley_vendor_app/common/basewidgets/textfeild/custom_text_feild_widget.dart';
+import 'package:cobes_marketplace_vendor/common/basewidgets/custom_snackbar_widget.dart' show SnackBarType, showCustomSnackBarWidget;
+import 'package:cobes_marketplace_vendor/features/pos/controllers/coupon_discount_controller.dart';
+import 'package:cobes_marketplace_vendor/localization/language_constrants.dart';
+import 'package:cobes_marketplace_vendor/features/pos/controllers/cart_controller.dart';
+import 'package:cobes_marketplace_vendor/main.dart';
+import 'package:cobes_marketplace_vendor/utill/dimensions.dart';
+import 'package:cobes_marketplace_vendor/utill/styles.dart';
+import 'package:cobes_marketplace_vendor/common/basewidgets/custom_button_widget.dart';
+import 'package:cobes_marketplace_vendor/common/basewidgets/custom_field_with_title_widget.dart';
+import 'package:cobes_marketplace_vendor/common/basewidgets/textfeild/custom_text_feild_widget.dart';
 
 class ExtraDiscountAndCouponDialogWidget extends StatelessWidget {
   final double payable;

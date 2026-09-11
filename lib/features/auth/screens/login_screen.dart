@@ -1,21 +1,21 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:sixvalley_vendor_app/common/basewidgets/custom_button_widget.dart';
-import 'package:sixvalley_vendor_app/common/basewidgets/textfeild/custom_text_feild_widget.dart';
-import 'package:sixvalley_vendor_app/features/more/screens/html_view_screen.dart';
-import 'package:sixvalley_vendor_app/features/splash/domain/models/business_pages_model.dart';
-import 'package:sixvalley_vendor_app/helper/email_checker.dart';
-import 'package:sixvalley_vendor_app/localization/language_constrants.dart';
-import 'package:sixvalley_vendor_app/features/auth/controllers/auth_controller.dart';
-import 'package:sixvalley_vendor_app/features/splash/controllers/splash_controller.dart';
-import 'package:sixvalley_vendor_app/main.dart';
-import 'package:sixvalley_vendor_app/utill/dimensions.dart';
-import 'package:sixvalley_vendor_app/utill/images.dart';
-import 'package:sixvalley_vendor_app/utill/styles.dart';
-import 'package:sixvalley_vendor_app/common/basewidgets/custom_snackbar_widget.dart';
-import 'package:sixvalley_vendor_app/features/auth/screens/registration_screen.dart';
-import 'package:sixvalley_vendor_app/features/dashboard/screens/dashboard_screen.dart';
-import 'package:sixvalley_vendor_app/features/auth/screens/forget_password_screen.dart';
+import 'package:cobes_marketplace_vendor/common/basewidgets/custom_button_widget.dart';
+import 'package:cobes_marketplace_vendor/common/basewidgets/textfeild/custom_text_feild_widget.dart';
+import 'package:cobes_marketplace_vendor/features/more/screens/html_view_screen.dart';
+import 'package:cobes_marketplace_vendor/features/splash/domain/models/business_pages_model.dart';
+import 'package:cobes_marketplace_vendor/helper/email_checker.dart';
+import 'package:cobes_marketplace_vendor/localization/language_constrants.dart';
+import 'package:cobes_marketplace_vendor/features/auth/controllers/auth_controller.dart';
+import 'package:cobes_marketplace_vendor/features/splash/controllers/splash_controller.dart';
+import 'package:cobes_marketplace_vendor/main.dart';
+import 'package:cobes_marketplace_vendor/utill/dimensions.dart';
+import 'package:cobes_marketplace_vendor/utill/images.dart';
+import 'package:cobes_marketplace_vendor/utill/styles.dart';
+import 'package:cobes_marketplace_vendor/common/basewidgets/custom_snackbar_widget.dart';
+import 'package:cobes_marketplace_vendor/features/auth/screens/registration_screen.dart';
+import 'package:cobes_marketplace_vendor/features/dashboard/screens/dashboard_screen.dart';
+import 'package:cobes_marketplace_vendor/features/auth/screens/forget_password_screen.dart';
 
 class LoginScreen extends StatefulWidget {
   const LoginScreen({Key? key}) : super(key: key);

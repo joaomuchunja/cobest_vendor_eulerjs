@@ -5,15 +5,15 @@ import 'package:flutter/material.dart';
 import 'package:path_provider/path_provider.dart';
 import 'package:permission_handler/permission_handler.dart';
 import 'package:provider/provider.dart';
-import 'package:sixvalley_vendor_app/common/basewidgets/custom_image_widget.dart';
-import 'package:sixvalley_vendor_app/features/chat/domain/models/message_model.dart';
-import 'package:sixvalley_vendor_app/features/chat/screens/media_viewer_screen.dart';
-import 'package:sixvalley_vendor_app/features/chat/controllers/chat_controller.dart';
-import 'package:sixvalley_vendor_app/localization/controllers/localization_controller.dart';
-import 'package:sixvalley_vendor_app/theme/controllers/theme_controller.dart';
-import 'package:sixvalley_vendor_app/utill/dimensions.dart';
-import 'package:sixvalley_vendor_app/utill/images.dart';
-import 'package:sixvalley_vendor_app/utill/styles.dart';
+import 'package:cobes_marketplace_vendor/common/basewidgets/custom_image_widget.dart';
+import 'package:cobes_marketplace_vendor/features/chat/domain/models/message_model.dart';
+import 'package:cobes_marketplace_vendor/features/chat/screens/media_viewer_screen.dart';
+import 'package:cobes_marketplace_vendor/features/chat/controllers/chat_controller.dart';
+import 'package:cobes_marketplace_vendor/localization/controllers/localization_controller.dart';
+import 'package:cobes_marketplace_vendor/theme/controllers/theme_controller.dart';
+import 'package:cobes_marketplace_vendor/utill/dimensions.dart';
+import 'package:cobes_marketplace_vendor/utill/images.dart';
+import 'package:cobes_marketplace_vendor/utill/styles.dart';
 
 class MessageBubbleWidget extends StatelessWidget {
   final Message message;

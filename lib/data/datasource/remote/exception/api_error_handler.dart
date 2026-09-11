@@ -1,9 +1,9 @@
 import 'package:dio/dio.dart';
 import 'package:flutter/foundation.dart';
 import 'package:provider/provider.dart';
-import 'package:sixvalley_vendor_app/data/model/response/base/error_response.dart';
-import 'package:sixvalley_vendor_app/features/auth/controllers/auth_controller.dart';
-import 'package:sixvalley_vendor_app/main.dart';
+import 'package:cobes_marketplace_vendor/data/model/response/base/error_response.dart';
+import 'package:cobes_marketplace_vendor/features/auth/controllers/auth_controller.dart';
+import 'package:cobes_marketplace_vendor/main.dart';
 
 
 class ApiErrorHandler {
@@ -26,6 +26,11 @@ class ApiErrorHandler {
               errorDescription = "Receive timeout in connection with API server";
               break;
             case DioExceptionType.badResponse:
+              if (error.response?.data is! Map) {
+                errorDescription =
+                    "Failed to load data - status code: ${error.response?.statusCode}";
+                break;
+              }
               switch (error.response!.statusCode) {
               case 403:
                 if (kDebugMode) {

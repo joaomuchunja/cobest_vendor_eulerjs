@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:sixvalley_vendor_app/features/bank_info/controllers/bank_info_controller.dart';
-import 'package:sixvalley_vendor_app/theme/controllers/theme_controller.dart';
-import 'package:sixvalley_vendor_app/utill/dimensions.dart';
-import 'package:sixvalley_vendor_app/features/home/widgets/transaction_chart_widget.dart';
+import 'package:cobes_marketplace_vendor/features/bank_info/controllers/bank_info_controller.dart';
+import 'package:cobes_marketplace_vendor/theme/controllers/theme_controller.dart';
+import 'package:cobes_marketplace_vendor/utill/dimensions.dart';
+import 'package:cobes_marketplace_vendor/features/home/widgets/transaction_chart_widget.dart';
 
 class ChartWidget extends StatelessWidget {
   const ChartWidget({Key? key}) : super(key: key);

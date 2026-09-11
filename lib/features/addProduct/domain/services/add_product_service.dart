@@ -1,11 +1,11 @@
 
  import 'dart:io';
 import 'package:flutter/cupertino.dart';
-import 'package:sixvalley_vendor_app/features/addProduct/domain/models/add_product_model.dart';
-import 'package:sixvalley_vendor_app/features/product/domain/models/product_model.dart';
-import 'package:sixvalley_vendor_app/features/addProduct/domain/models/image_model.dart';
-import 'package:sixvalley_vendor_app/features/addProduct/domain/repository/add_product_repository_interface.dart';
-import 'package:sixvalley_vendor_app/features/addProduct/domain/services/add_product_service_interface.dart';
+import 'package:cobes_marketplace_vendor/features/addProduct/domain/models/add_product_model.dart';
+import 'package:cobes_marketplace_vendor/features/product/domain/models/product_model.dart';
+import 'package:cobes_marketplace_vendor/features/addProduct/domain/models/image_model.dart';
+import 'package:cobes_marketplace_vendor/features/addProduct/domain/repository/add_product_repository_interface.dart';
+import 'package:cobes_marketplace_vendor/features/addProduct/domain/services/add_product_service_interface.dart';
 
 class AddProductService implements AddProductServiceInterface{
  final AddProductRepositoryInterface shopRepoInterface;

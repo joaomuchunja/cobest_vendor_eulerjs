@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:shimmer/shimmer.dart';
-import 'package:sixvalley_vendor_app/theme/controllers/theme_controller.dart';
-import 'package:sixvalley_vendor_app/utill/dimensions.dart';
+import 'package:cobes_marketplace_vendor/theme/controllers/theme_controller.dart';
+import 'package:cobes_marketplace_vendor/utill/dimensions.dart';
 
 class RefundDetailShimmer extends StatelessWidget {
   const RefundDetailShimmer({super.key});

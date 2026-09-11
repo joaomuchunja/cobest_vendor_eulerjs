@@ -1,15 +1,15 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:sixvalley_vendor_app/features/delivery_man/domain/model/top_delivery_man.dart';
-import 'package:sixvalley_vendor_app/helper/price_converter.dart';
-import 'package:sixvalley_vendor_app/localization/language_constrants.dart';
-import 'package:sixvalley_vendor_app/features/delivery_man/controllers/delivery_man_controller.dart';
-import 'package:sixvalley_vendor_app/utill/dimensions.dart';
-import 'package:sixvalley_vendor_app/utill/images.dart';
-import 'package:sixvalley_vendor_app/utill/styles.dart';
-import 'package:sixvalley_vendor_app/common/basewidgets/title_row_widget.dart';
-import 'package:sixvalley_vendor_app/features/delivery_man/screens/delivery_man_earning_view_all_screen.dart';
-import 'package:sixvalley_vendor_app/features/delivery_man/widgets/delivery_man_earning_list_view_widget.dart';
+import 'package:cobes_marketplace_vendor/features/delivery_man/domain/model/top_delivery_man.dart';
+import 'package:cobes_marketplace_vendor/helper/price_converter.dart';
+import 'package:cobes_marketplace_vendor/localization/language_constrants.dart';
+import 'package:cobes_marketplace_vendor/features/delivery_man/controllers/delivery_man_controller.dart';
+import 'package:cobes_marketplace_vendor/utill/dimensions.dart';
+import 'package:cobes_marketplace_vendor/utill/images.dart';
+import 'package:cobes_marketplace_vendor/utill/styles.dart';
+import 'package:cobes_marketplace_vendor/common/basewidgets/title_row_widget.dart';
+import 'package:cobes_marketplace_vendor/features/delivery_man/screens/delivery_man_earning_view_all_screen.dart';
+import 'package:cobes_marketplace_vendor/features/delivery_man/widgets/delivery_man_earning_list_view_widget.dart';
 
 
 class DeliveryManEarningListWidget extends StatefulWidget {

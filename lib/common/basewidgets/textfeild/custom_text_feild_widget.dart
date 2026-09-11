@@ -2,12 +2,12 @@ import 'package:country_code_picker/country_code_picker.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:provider/provider.dart';
-import 'package:sixvalley_vendor_app/common/basewidgets/custom_asset_image_widget.dart';
-import 'package:sixvalley_vendor_app/features/auth/widgets/code_picker_widget.dart';
-import 'package:sixvalley_vendor_app/localization/controllers/localization_controller.dart';
-import 'package:sixvalley_vendor_app/theme/controllers/theme_controller.dart';
-import 'package:sixvalley_vendor_app/utill/dimensions.dart';
-import 'package:sixvalley_vendor_app/utill/styles.dart';
+import 'package:cobes_marketplace_vendor/common/basewidgets/custom_asset_image_widget.dart';
+import 'package:cobes_marketplace_vendor/features/auth/widgets/code_picker_widget.dart';
+import 'package:cobes_marketplace_vendor/localization/controllers/localization_controller.dart';
+import 'package:cobes_marketplace_vendor/theme/controllers/theme_controller.dart';
+import 'package:cobes_marketplace_vendor/utill/dimensions.dart';
+import 'package:cobes_marketplace_vendor/utill/styles.dart';
 
 extension EmailValidator on String {
   bool isValidEmail() {

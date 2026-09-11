@@ -1,8 +1,8 @@
-import 'package:sixvalley_vendor_app/data/model/response/base/api_response.dart';
-import 'package:sixvalley_vendor_app/features/pos/domain/models/customer_body.dart';
-import 'package:sixvalley_vendor_app/features/pos/domain/models/place_order_body.dart';
-import 'package:sixvalley_vendor_app/features/pos/domain/models/temporary_cart_for_customer_model.dart';
-import 'package:sixvalley_vendor_app/interface/repository_interface.dart';
+import 'package:cobes_marketplace_vendor/data/model/response/base/api_response.dart';
+import 'package:cobes_marketplace_vendor/features/pos/domain/models/customer_body.dart';
+import 'package:cobes_marketplace_vendor/features/pos/domain/models/place_order_body.dart';
+import 'package:cobes_marketplace_vendor/features/pos/domain/models/temporary_cart_for_customer_model.dart';
+import 'package:cobes_marketplace_vendor/interface/repository_interface.dart';
 
 abstract class CartRepositoryInterface implements RepositoryInterface{
   Future<ApiResponse> getCouponDiscount(String couponCode, int? userId, double orderAmount);

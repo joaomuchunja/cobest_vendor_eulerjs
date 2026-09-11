@@ -1,16 +1,16 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:sixvalley_vendor_app/features/chat/widgets/inbox_shimmer_widget.dart';
-import 'package:sixvalley_vendor_app/features/dashboard/screens/dashboard_screen.dart';
-import 'package:sixvalley_vendor_app/localization/language_constrants.dart';
-import 'package:sixvalley_vendor_app/features/chat/controllers/chat_controller.dart';
-import 'package:sixvalley_vendor_app/utill/dimensions.dart';
-import 'package:sixvalley_vendor_app/common/basewidgets/custom_app_bar_widget.dart';
-import 'package:sixvalley_vendor_app/common/basewidgets/no_data_screen.dart';
-import 'package:sixvalley_vendor_app/common/basewidgets/paginated_list_view_widget.dart';
-import 'package:sixvalley_vendor_app/features/chat/widgets/chat_card_widget.dart';
-import 'package:sixvalley_vendor_app/features/chat/widgets/chat_header_widget.dart';
-import 'package:sixvalley_vendor_app/utill/images.dart';
+import 'package:cobes_marketplace_vendor/features/chat/widgets/inbox_shimmer_widget.dart';
+import 'package:cobes_marketplace_vendor/features/dashboard/screens/dashboard_screen.dart';
+import 'package:cobes_marketplace_vendor/localization/language_constrants.dart';
+import 'package:cobes_marketplace_vendor/features/chat/controllers/chat_controller.dart';
+import 'package:cobes_marketplace_vendor/utill/dimensions.dart';
+import 'package:cobes_marketplace_vendor/common/basewidgets/custom_app_bar_widget.dart';
+import 'package:cobes_marketplace_vendor/common/basewidgets/no_data_screen.dart';
+import 'package:cobes_marketplace_vendor/common/basewidgets/paginated_list_view_widget.dart';
+import 'package:cobes_marketplace_vendor/features/chat/widgets/chat_card_widget.dart';
+import 'package:cobes_marketplace_vendor/features/chat/widgets/chat_header_widget.dart';
+import 'package:cobes_marketplace_vendor/utill/images.dart';
 
 class InboxScreen extends StatefulWidget {
   final bool isBackButtonExist;

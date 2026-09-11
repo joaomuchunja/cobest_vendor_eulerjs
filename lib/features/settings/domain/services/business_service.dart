@@ -1,10 +1,10 @@
 
 
-import 'package:sixvalley_vendor_app/data/model/response/base/api_response.dart';
-import 'package:sixvalley_vendor_app/features/settings/domain/models/business_model.dart';
-import 'package:sixvalley_vendor_app/features/settings/domain/repositories/buisness_repository_interface.dart';
-import 'package:sixvalley_vendor_app/features/settings/domain/services/business_service_interface.dart';
-import 'package:sixvalley_vendor_app/helper/api_checker.dart';
+import 'package:cobes_marketplace_vendor/data/model/response/base/api_response.dart';
+import 'package:cobes_marketplace_vendor/features/settings/domain/models/business_model.dart';
+import 'package:cobes_marketplace_vendor/features/settings/domain/repositories/buisness_repository_interface.dart';
+import 'package:cobes_marketplace_vendor/features/settings/domain/services/business_service_interface.dart';
+import 'package:cobes_marketplace_vendor/helper/api_checker.dart';
 
 class BusinessService implements BusinessServiceInterface{
   final BusinessRepositoryInterface businessRepoInterface;

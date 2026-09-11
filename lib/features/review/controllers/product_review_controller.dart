@@ -2,16 +2,16 @@
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
-import 'package:sixvalley_vendor_app/data/model/response/base/api_response.dart';
-import 'package:sixvalley_vendor_app/features/review/domain/models/product_review_model.dart';
-import 'package:sixvalley_vendor_app/features/review/domain/models/ratting_model.dart';
-import 'package:sixvalley_vendor_app/features/review/domain/models/review_model.dart';
-import 'package:sixvalley_vendor_app/features/review/domain/services/review_service_interface.dart';
-import 'package:sixvalley_vendor_app/helper/api_checker.dart';
-import 'package:sixvalley_vendor_app/features/review/domain/models/review_model.dart' as rm;
-import 'package:sixvalley_vendor_app/localization/language_constrants.dart';
-import 'package:sixvalley_vendor_app/main.dart';
-import 'package:sixvalley_vendor_app/common/basewidgets/custom_snackbar_widget.dart';
+import 'package:cobes_marketplace_vendor/data/model/response/base/api_response.dart';
+import 'package:cobes_marketplace_vendor/features/review/domain/models/product_review_model.dart';
+import 'package:cobes_marketplace_vendor/features/review/domain/models/ratting_model.dart';
+import 'package:cobes_marketplace_vendor/features/review/domain/models/review_model.dart';
+import 'package:cobes_marketplace_vendor/features/review/domain/services/review_service_interface.dart';
+import 'package:cobes_marketplace_vendor/helper/api_checker.dart';
+import 'package:cobes_marketplace_vendor/features/review/domain/models/review_model.dart' as rm;
+import 'package:cobes_marketplace_vendor/localization/language_constrants.dart';
+import 'package:cobes_marketplace_vendor/main.dart';
+import 'package:cobes_marketplace_vendor/common/basewidgets/custom_snackbar_widget.dart';
 
 class ProductReviewController extends ChangeNotifier{
   final ReviewServiceInterface reviewServiceInterface;

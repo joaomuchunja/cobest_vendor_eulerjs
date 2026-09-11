@@ -2,16 +2,16 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/foundation.dart';
 import 'package:http/http.dart' as http;
-import 'package:sixvalley_vendor_app/common/basewidgets/custom_snackbar_widget.dart';
-import 'package:sixvalley_vendor_app/features/profile/domain/models/profile_body.dart';
-import 'package:sixvalley_vendor_app/data/model/response/base/api_response.dart';
-import 'package:sixvalley_vendor_app/data/model/response/response_model.dart';
-import 'package:sixvalley_vendor_app/features/bank_info/domain/repositories/bank_info_repository_interface.dart';
-import 'package:sixvalley_vendor_app/features/bank_info/domain/services/bank_info_service_interface.dart';
-import 'package:sixvalley_vendor_app/features/profile/domain/models/profile_info.dart';
-import 'package:sixvalley_vendor_app/helper/api_checker.dart';
-import 'package:sixvalley_vendor_app/localization/language_constrants.dart';
-import 'package:sixvalley_vendor_app/main.dart';
+import 'package:cobes_marketplace_vendor/common/basewidgets/custom_snackbar_widget.dart';
+import 'package:cobes_marketplace_vendor/features/profile/domain/models/profile_body.dart';
+import 'package:cobes_marketplace_vendor/data/model/response/base/api_response.dart';
+import 'package:cobes_marketplace_vendor/data/model/response/response_model.dart';
+import 'package:cobes_marketplace_vendor/features/bank_info/domain/repositories/bank_info_repository_interface.dart';
+import 'package:cobes_marketplace_vendor/features/bank_info/domain/services/bank_info_service_interface.dart';
+import 'package:cobes_marketplace_vendor/features/profile/domain/models/profile_info.dart';
+import 'package:cobes_marketplace_vendor/helper/api_checker.dart';
+import 'package:cobes_marketplace_vendor/localization/language_constrants.dart';
+import 'package:cobes_marketplace_vendor/main.dart';
 
 class BankInfoService implements BankInfoServiceInterface{
   BankInfoRepositoryInterface bankInfoRepoInterface;

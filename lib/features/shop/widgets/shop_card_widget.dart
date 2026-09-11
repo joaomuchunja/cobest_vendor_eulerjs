@@ -1,15 +1,15 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:sixvalley_vendor_app/common/basewidgets/custom_asset_image_widget.dart';
-import 'package:sixvalley_vendor_app/common/basewidgets/custom_image_widget.dart';
-import 'package:sixvalley_vendor_app/features/shop/controllers/shop_controller.dart';
-import 'package:sixvalley_vendor_app/features/shop/screens/shop_update_screen.dart';
-import 'package:sixvalley_vendor_app/helper/color_helper.dart';
-import 'package:sixvalley_vendor_app/helper/date_converter.dart';
-import 'package:sixvalley_vendor_app/localization/language_constrants.dart';
-import 'package:sixvalley_vendor_app/utill/dimensions.dart';
-import 'package:sixvalley_vendor_app/utill/images.dart';
-import 'package:sixvalley_vendor_app/utill/styles.dart';
+import 'package:cobes_marketplace_vendor/common/basewidgets/custom_asset_image_widget.dart';
+import 'package:cobes_marketplace_vendor/common/basewidgets/custom_image_widget.dart';
+import 'package:cobes_marketplace_vendor/features/shop/controllers/shop_controller.dart';
+import 'package:cobes_marketplace_vendor/features/shop/screens/shop_update_screen.dart';
+import 'package:cobes_marketplace_vendor/helper/color_helper.dart';
+import 'package:cobes_marketplace_vendor/helper/date_converter.dart';
+import 'package:cobes_marketplace_vendor/localization/language_constrants.dart';
+import 'package:cobes_marketplace_vendor/utill/dimensions.dart';
+import 'package:cobes_marketplace_vendor/utill/images.dart';
+import 'package:cobes_marketplace_vendor/utill/styles.dart';
 
 class ShopCardWidget extends StatelessWidget {
   const ShopCardWidget({super.key});

@@ -1,18 +1,18 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:sixvalley_vendor_app/common/basewidgets/custom_button_widget.dart';
-import 'package:sixvalley_vendor_app/common/basewidgets/textfeild/custom_text_feild_widget.dart';
-import 'package:sixvalley_vendor_app/features/profile/domain/models/profile_body.dart';
-import 'package:sixvalley_vendor_app/features/profile/domain/models/profile_info.dart';
-import 'package:sixvalley_vendor_app/localization/language_constrants.dart';
-import 'package:sixvalley_vendor_app/features/auth/controllers/auth_controller.dart';
-import 'package:sixvalley_vendor_app/features/bank_info/controllers/bank_info_controller.dart';
-import 'package:sixvalley_vendor_app/features/profile/controllers/profile_controller.dart';
-import 'package:sixvalley_vendor_app/main.dart';
-import 'package:sixvalley_vendor_app/utill/dimensions.dart';
-import 'package:sixvalley_vendor_app/utill/styles.dart';
-import 'package:sixvalley_vendor_app/common/basewidgets/custom_app_bar_widget.dart';
-import 'package:sixvalley_vendor_app/common/basewidgets/custom_snackbar_widget.dart';
+import 'package:cobes_marketplace_vendor/common/basewidgets/custom_button_widget.dart';
+import 'package:cobes_marketplace_vendor/common/basewidgets/textfeild/custom_text_feild_widget.dart';
+import 'package:cobes_marketplace_vendor/features/profile/domain/models/profile_body.dart';
+import 'package:cobes_marketplace_vendor/features/profile/domain/models/profile_info.dart';
+import 'package:cobes_marketplace_vendor/localization/language_constrants.dart';
+import 'package:cobes_marketplace_vendor/features/auth/controllers/auth_controller.dart';
+import 'package:cobes_marketplace_vendor/features/bank_info/controllers/bank_info_controller.dart';
+import 'package:cobes_marketplace_vendor/features/profile/controllers/profile_controller.dart';
+import 'package:cobes_marketplace_vendor/main.dart';
+import 'package:cobes_marketplace_vendor/utill/dimensions.dart';
+import 'package:cobes_marketplace_vendor/utill/styles.dart';
+import 'package:cobes_marketplace_vendor/common/basewidgets/custom_app_bar_widget.dart';
+import 'package:cobes_marketplace_vendor/common/basewidgets/custom_snackbar_widget.dart';
 
 class BankEditingScreen extends StatefulWidget {
 

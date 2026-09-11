@@ -1,4 +1,4 @@
-import 'package:sixvalley_vendor_app/features/order/domain/models/order_model.dart';
+import 'package:cobes_marketplace_vendor/features/order/domain/models/order_model.dart';
 
 class DeliveryManOrderHistoryModel {
   int? totalSize;

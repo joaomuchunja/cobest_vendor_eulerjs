@@ -1,16 +1,16 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:sixvalley_vendor_app/common/basewidgets/custom_button_widget.dart';
-import 'package:sixvalley_vendor_app/common/basewidgets/custom_snackbar_widget.dart';
-import 'package:sixvalley_vendor_app/features/clearance_sale/controllers/clearance_sale_controller.dart';
-import 'package:sixvalley_vendor_app/features/clearance_sale/domain/models/chearance_slale_add_model.dart';
-import 'package:sixvalley_vendor_app/features/clearance_sale/widgets/clearance_add_list_item.dart';
-import 'package:sixvalley_vendor_app/features/clearance_sale/widgets/clearance_search_suggestion_widget.dart';
-import 'package:sixvalley_vendor_app/features/profile/controllers/profile_controller.dart';
-import 'package:sixvalley_vendor_app/localization/language_constrants.dart';
-import 'package:sixvalley_vendor_app/theme/controllers/theme_controller.dart';
-import 'package:sixvalley_vendor_app/utill/dimensions.dart';
-import 'package:sixvalley_vendor_app/utill/styles.dart';
+import 'package:cobes_marketplace_vendor/common/basewidgets/custom_button_widget.dart';
+import 'package:cobes_marketplace_vendor/common/basewidgets/custom_snackbar_widget.dart';
+import 'package:cobes_marketplace_vendor/features/clearance_sale/controllers/clearance_sale_controller.dart';
+import 'package:cobes_marketplace_vendor/features/clearance_sale/domain/models/chearance_slale_add_model.dart';
+import 'package:cobes_marketplace_vendor/features/clearance_sale/widgets/clearance_add_list_item.dart';
+import 'package:cobes_marketplace_vendor/features/clearance_sale/widgets/clearance_search_suggestion_widget.dart';
+import 'package:cobes_marketplace_vendor/features/profile/controllers/profile_controller.dart';
+import 'package:cobes_marketplace_vendor/localization/language_constrants.dart';
+import 'package:cobes_marketplace_vendor/theme/controllers/theme_controller.dart';
+import 'package:cobes_marketplace_vendor/utill/dimensions.dart';
+import 'package:cobes_marketplace_vendor/utill/styles.dart';
 
 class ClearanceSearchProductScreen extends StatefulWidget {
   const ClearanceSearchProductScreen({super.key});

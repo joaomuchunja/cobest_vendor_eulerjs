@@ -3,9 +3,9 @@
 import 'dart:io';
 
 import 'package:image_picker/image_picker.dart';
-import 'package:sixvalley_vendor_app/features/shop/domain/models/shop_model.dart';
-import 'package:sixvalley_vendor_app/features/shop/domain/models/vacation_model.dart';
-import 'package:sixvalley_vendor_app/features/shop/domain/models/withdrawal_method_model.dart';
+import 'package:cobes_marketplace_vendor/features/shop/domain/models/shop_model.dart';
+import 'package:cobes_marketplace_vendor/features/shop/domain/models/vacation_model.dart';
+import 'package:cobes_marketplace_vendor/features/shop/domain/models/withdrawal_method_model.dart';
 
 abstract class ShopServiceInterface{
   Future<dynamic> getShop();

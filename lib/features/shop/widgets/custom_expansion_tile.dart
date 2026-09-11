@@ -6,7 +6,7 @@ import 'dart:async';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
-import 'package:sixvalley_vendor_app/utill/dimensions.dart';
+import 'package:cobes_marketplace_vendor/utill/dimensions.dart';
 
 const Duration _kExpand = Duration(milliseconds: 200);
 

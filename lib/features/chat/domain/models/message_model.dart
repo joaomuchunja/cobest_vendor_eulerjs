@@ -1,4 +1,4 @@
-import 'package:sixvalley_vendor_app/features/chat/domain/models/chat_model.dart';
+import 'package:cobes_marketplace_vendor/features/chat/domain/models/chat_model.dart';
 
 class MessageModel {
   int? totalSize;

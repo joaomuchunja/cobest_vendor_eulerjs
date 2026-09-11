@@ -1,14 +1,14 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:sixvalley_vendor_app/features/dashboard/screens/dashboard_screen.dart';
-import 'package:sixvalley_vendor_app/features/order/domain/models/order_model.dart';
-import 'package:sixvalley_vendor_app/features/order_details/controllers/order_details_controller.dart';
-import 'package:sixvalley_vendor_app/helper/color_helper.dart';
-import 'package:sixvalley_vendor_app/helper/date_converter.dart';
-import 'package:sixvalley_vendor_app/localization/language_constrants.dart';
-import 'package:sixvalley_vendor_app/utill/dimensions.dart';
-import 'package:sixvalley_vendor_app/utill/styles.dart';
+import 'package:cobes_marketplace_vendor/features/dashboard/screens/dashboard_screen.dart';
+import 'package:cobes_marketplace_vendor/features/order/domain/models/order_model.dart';
+import 'package:cobes_marketplace_vendor/features/order_details/controllers/order_details_controller.dart';
+import 'package:cobes_marketplace_vendor/helper/color_helper.dart';
+import 'package:cobes_marketplace_vendor/helper/date_converter.dart';
+import 'package:cobes_marketplace_vendor/localization/language_constrants.dart';
+import 'package:cobes_marketplace_vendor/utill/dimensions.dart';
+import 'package:cobes_marketplace_vendor/utill/styles.dart';
 
 
 class OrderTopSectionWidget extends StatelessWidget {

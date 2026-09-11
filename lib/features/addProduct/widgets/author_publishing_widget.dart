@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:sixvalley_vendor_app/features/addProduct/controllers/add_product_controller.dart';
+import 'package:cobes_marketplace_vendor/features/addProduct/controllers/add_product_controller.dart';
 
 
 class SelectAuthorPublishing extends StatelessWidget {

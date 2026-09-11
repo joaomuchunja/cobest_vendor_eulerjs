@@ -1,5 +1,5 @@
 import 'package:image_picker/image_picker.dart';
-import 'package:sixvalley_vendor_app/features/auth/domain/models/register_model.dart';
+import 'package:cobes_marketplace_vendor/features/auth/domain/models/register_model.dart';
 
 abstract class AuthServiceInterface {
   Future<dynamic> login({String? emailAddress, String? password});

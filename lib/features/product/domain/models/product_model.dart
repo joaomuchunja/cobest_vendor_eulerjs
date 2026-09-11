@@ -1,6 +1,6 @@
-import 'package:sixvalley_vendor_app/data/model/image_full_url.dart';
-import 'package:sixvalley_vendor_app/features/product/domain/enums/product_type_enum.dart';
-import 'package:sixvalley_vendor_app/helper/date_converter.dart';
+import 'package:cobes_marketplace_vendor/data/model/image_full_url.dart';
+import 'package:cobes_marketplace_vendor/features/product/domain/enums/product_type_enum.dart';
+import 'package:cobes_marketplace_vendor/helper/date_converter.dart';
 
 class ProductModel {
 

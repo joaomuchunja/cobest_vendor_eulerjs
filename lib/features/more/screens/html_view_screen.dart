@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_html/flutter_html.dart';
-import 'package:sixvalley_vendor_app/common/basewidgets/custom_image_widget.dart';
-import 'package:sixvalley_vendor_app/features/splash/domain/models/business_pages_model.dart';
-import 'package:sixvalley_vendor_app/utill/dimensions.dart';
-import 'package:sixvalley_vendor_app/common/basewidgets/custom_app_bar_widget.dart';
+import 'package:cobes_marketplace_vendor/common/basewidgets/custom_image_widget.dart';
+import 'package:cobes_marketplace_vendor/features/splash/domain/models/business_pages_model.dart';
+import 'package:cobes_marketplace_vendor/utill/dimensions.dart';
+import 'package:cobes_marketplace_vendor/common/basewidgets/custom_app_bar_widget.dart';
 
 class HtmlViewScreen extends StatelessWidget {
   final BusinessPageModel? page;

@@ -4,14 +4,14 @@ import 'package:flutter/material.dart';
 import 'package:flutter_slidable/flutter_slidable.dart';
 import 'package:flutter_switch/flutter_switch.dart';
 import 'package:provider/provider.dart';
-import 'package:sixvalley_vendor_app/features/emergency_contract/domain/models/emergency_contact_model.dart';
-import 'package:sixvalley_vendor_app/helper/color_helper.dart';
-import 'package:sixvalley_vendor_app/localization/language_constrants.dart';
-import 'package:sixvalley_vendor_app/features/emergency_contract/controllers/emergency_contact_controller.dart';
-import 'package:sixvalley_vendor_app/utill/dimensions.dart';
-import 'package:sixvalley_vendor_app/utill/images.dart';
-import 'package:sixvalley_vendor_app/utill/styles.dart';
-import 'package:sixvalley_vendor_app/features/emergency_contract/widgets/add_emergency_contact_widget.dart';
+import 'package:cobes_marketplace_vendor/features/emergency_contract/domain/models/emergency_contact_model.dart';
+import 'package:cobes_marketplace_vendor/helper/color_helper.dart';
+import 'package:cobes_marketplace_vendor/localization/language_constrants.dart';
+import 'package:cobes_marketplace_vendor/features/emergency_contract/controllers/emergency_contact_controller.dart';
+import 'package:cobes_marketplace_vendor/utill/dimensions.dart';
+import 'package:cobes_marketplace_vendor/utill/images.dart';
+import 'package:cobes_marketplace_vendor/utill/styles.dart';
+import 'package:cobes_marketplace_vendor/features/emergency_contract/widgets/add_emergency_contact_widget.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 

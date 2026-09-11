@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:sixvalley_vendor_app/features/emergency_contract/domain/models/emergency_contact_model.dart';
-import 'package:sixvalley_vendor_app/features/emergency_contract/controllers/emergency_contact_controller.dart';
-import 'package:sixvalley_vendor_app/utill/dimensions.dart';
-import 'package:sixvalley_vendor_app/common/basewidgets/custom_loader_widget.dart';
-import 'package:sixvalley_vendor_app/common/basewidgets/no_data_screen.dart';
-import 'package:sixvalley_vendor_app/features/emergency_contract/widgets/emergency_contact_card_widget.dart';
+import 'package:cobes_marketplace_vendor/features/emergency_contract/domain/models/emergency_contact_model.dart';
+import 'package:cobes_marketplace_vendor/features/emergency_contract/controllers/emergency_contact_controller.dart';
+import 'package:cobes_marketplace_vendor/utill/dimensions.dart';
+import 'package:cobes_marketplace_vendor/common/basewidgets/custom_loader_widget.dart';
+import 'package:cobes_marketplace_vendor/common/basewidgets/no_data_screen.dart';
+import 'package:cobes_marketplace_vendor/features/emergency_contract/widgets/emergency_contact_card_widget.dart';
 
 
 

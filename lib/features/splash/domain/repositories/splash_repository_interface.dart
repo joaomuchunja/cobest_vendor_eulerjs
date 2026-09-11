@@ -1,8 +1,8 @@
 
 
 import 'package:flutter/cupertino.dart';
-import 'package:sixvalley_vendor_app/data/model/response/base/api_response.dart';
-import 'package:sixvalley_vendor_app/interface/repository_interface.dart';
+import 'package:cobes_marketplace_vendor/data/model/response/base/api_response.dart';
+import 'package:cobes_marketplace_vendor/interface/repository_interface.dart';
 
 abstract class SplashRepositoryInterface implements RepositoryInterface{
   Future<ApiResponse> getConfig();

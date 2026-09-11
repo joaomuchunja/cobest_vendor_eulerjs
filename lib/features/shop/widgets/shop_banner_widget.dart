@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:sixvalley_vendor_app/features/shop/controllers/shop_controller.dart';
-import 'package:sixvalley_vendor_app/common/basewidgets/custom_image_widget.dart';
+import 'package:cobes_marketplace_vendor/features/shop/controllers/shop_controller.dart';
+import 'package:cobes_marketplace_vendor/common/basewidgets/custom_image_widget.dart';
 
 
 class ShopBannerWidget extends StatelessWidget {

@@ -1,16 +1,16 @@
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
-import 'package:sixvalley_vendor_app/common/basewidgets/custom_snackbar_widget.dart';
-import 'package:sixvalley_vendor_app/data/model/response/base/api_response.dart';
-import 'package:sixvalley_vendor_app/features/clearance_sale/domain/models/chearance_slale_add_model.dart';
-import 'package:sixvalley_vendor_app/features/clearance_sale/domain/models/clearance_config_model.dart';
-import 'package:sixvalley_vendor_app/features/clearance_sale/domain/models/clearnace_sale_product_model.dart';
-import 'package:sixvalley_vendor_app/features/clearance_sale/domain/services/clearance_sale_service_interface.dart';
-import 'package:sixvalley_vendor_app/features/clearance_sale/widgets/show_custom_time_picker.dart';
-import 'package:sixvalley_vendor_app/features/product/domain/models/product_model.dart';
-import 'package:sixvalley_vendor_app/helper/api_checker.dart';
-import 'package:sixvalley_vendor_app/localization/language_constrants.dart';
-import 'package:sixvalley_vendor_app/main.dart';
+import 'package:cobes_marketplace_vendor/common/basewidgets/custom_snackbar_widget.dart';
+import 'package:cobes_marketplace_vendor/data/model/response/base/api_response.dart';
+import 'package:cobes_marketplace_vendor/features/clearance_sale/domain/models/chearance_slale_add_model.dart';
+import 'package:cobes_marketplace_vendor/features/clearance_sale/domain/models/clearance_config_model.dart';
+import 'package:cobes_marketplace_vendor/features/clearance_sale/domain/models/clearnace_sale_product_model.dart';
+import 'package:cobes_marketplace_vendor/features/clearance_sale/domain/services/clearance_sale_service_interface.dart';
+import 'package:cobes_marketplace_vendor/features/clearance_sale/widgets/show_custom_time_picker.dart';
+import 'package:cobes_marketplace_vendor/features/product/domain/models/product_model.dart';
+import 'package:cobes_marketplace_vendor/helper/api_checker.dart';
+import 'package:cobes_marketplace_vendor/localization/language_constrants.dart';
+import 'package:cobes_marketplace_vendor/main.dart';
 
 class ClearanceSaleController extends ChangeNotifier {
   final ClearanceSaleServiceInterface chatServiceInterface;

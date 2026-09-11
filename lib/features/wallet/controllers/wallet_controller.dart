@@ -1,16 +1,16 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:provider/provider.dart';
-import 'package:sixvalley_vendor_app/common/basewidgets/custom_snackbar_widget.dart';
-import 'package:sixvalley_vendor_app/data/model/response/base/api_response.dart';
-import 'package:sixvalley_vendor_app/features/profile/controllers/profile_controller.dart';
-import 'package:sixvalley_vendor_app/features/profile/domain/models/withdraw_model.dart';
-import 'package:sixvalley_vendor_app/features/shop/controllers/shop_controller.dart';
-import 'package:sixvalley_vendor_app/features/shop/domain/models/payment_information_model.dart';
-import 'package:sixvalley_vendor_app/features/wallet/domain/services/wallet_service_interface.dart';
-import 'package:sixvalley_vendor_app/helper/api_checker.dart';
-import 'package:sixvalley_vendor_app/localization/language_constrants.dart';
-import 'package:sixvalley_vendor_app/main.dart';
+import 'package:cobes_marketplace_vendor/common/basewidgets/custom_snackbar_widget.dart';
+import 'package:cobes_marketplace_vendor/data/model/response/base/api_response.dart';
+import 'package:cobes_marketplace_vendor/features/profile/controllers/profile_controller.dart';
+import 'package:cobes_marketplace_vendor/features/profile/domain/models/withdraw_model.dart';
+import 'package:cobes_marketplace_vendor/features/shop/controllers/shop_controller.dart';
+import 'package:cobes_marketplace_vendor/features/shop/domain/models/payment_information_model.dart';
+import 'package:cobes_marketplace_vendor/features/wallet/domain/services/wallet_service_interface.dart';
+import 'package:cobes_marketplace_vendor/helper/api_checker.dart';
+import 'package:cobes_marketplace_vendor/localization/language_constrants.dart';
+import 'package:cobes_marketplace_vendor/main.dart';
 
 class WalletController with ChangeNotifier{
 

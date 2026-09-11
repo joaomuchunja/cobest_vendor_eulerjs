@@ -1,15 +1,15 @@
-import 'package:sixvalley_vendor_app/localization/models/language_model.dart';
-import 'package:sixvalley_vendor_app/utill/images.dart';
+import 'package:cobes_marketplace_vendor/localization/models/language_model.dart';
+import 'package:cobes_marketplace_vendor/utill/images.dart';
 
 import '../features/shop/domain/models/guideline_model.dart';
 
 class AppConstants {
-  static const String appName = 'Vendor App';
+  static const String appName = 'Cobest Seller';
   static const String appVersion = '15.3'; // Flutter SDK version - 3.32.6
-  static const String companyName = '6Valley';
+  static const String companyName = 'Cobest';
 
 
-  static const String baseUrl = 'YOUR_BASE_URL_HERE';
+  static const String baseUrl = 'https://apitest.tsevele.co.mz';
 
   static const String loginUri = '/api/v3/seller/auth/login';
   static const String configUri = '/api/v1/config';

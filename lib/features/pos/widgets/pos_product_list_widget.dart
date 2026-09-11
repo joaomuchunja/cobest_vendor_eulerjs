@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:sixvalley_vendor_app/features/product/domain/models/product_model.dart';
-import 'package:sixvalley_vendor_app/features/product/controllers/product_controller.dart';
-import 'package:sixvalley_vendor_app/common/basewidgets/paginated_list_view_widget.dart';
-import 'package:sixvalley_vendor_app/features/pos/widgets/pos_product_card_widget.dart';
+import 'package:cobes_marketplace_vendor/features/product/domain/models/product_model.dart';
+import 'package:cobes_marketplace_vendor/features/product/controllers/product_controller.dart';
+import 'package:cobes_marketplace_vendor/common/basewidgets/paginated_list_view_widget.dart';
+import 'package:cobes_marketplace_vendor/features/pos/widgets/pos_product_card_widget.dart';
 
 class PosProductListWidget extends StatelessWidget {
   final List<Product>? productList;

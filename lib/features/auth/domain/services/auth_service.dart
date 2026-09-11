@@ -1,14 +1,14 @@
 import 'package:flutter/foundation.dart';
 import 'package:image_picker/image_picker.dart';
-import 'package:sixvalley_vendor_app/common/basewidgets/custom_snackbar_widget.dart';
-import 'package:sixvalley_vendor_app/data/model/response/base/api_response.dart';
-import 'package:sixvalley_vendor_app/data/model/response/base/error_response.dart';
-import 'package:sixvalley_vendor_app/data/model/response/response_model.dart';
-import 'package:sixvalley_vendor_app/features/auth/domain/models/register_model.dart';
-import 'package:sixvalley_vendor_app/features/auth/domain/repositories/auth_repository_interface.dart';
-import 'package:sixvalley_vendor_app/features/auth/domain/services/auth_service_interface.dart';
-import 'package:sixvalley_vendor_app/localization/language_constrants.dart';
-import 'package:sixvalley_vendor_app/main.dart';
+import 'package:cobes_marketplace_vendor/common/basewidgets/custom_snackbar_widget.dart';
+import 'package:cobes_marketplace_vendor/data/model/response/base/api_response.dart';
+import 'package:cobes_marketplace_vendor/data/model/response/base/error_response.dart';
+import 'package:cobes_marketplace_vendor/data/model/response/response_model.dart';
+import 'package:cobes_marketplace_vendor/features/auth/domain/models/register_model.dart';
+import 'package:cobes_marketplace_vendor/features/auth/domain/repositories/auth_repository_interface.dart';
+import 'package:cobes_marketplace_vendor/features/auth/domain/services/auth_service_interface.dart';
+import 'package:cobes_marketplace_vendor/localization/language_constrants.dart';
+import 'package:cobes_marketplace_vendor/main.dart';
 
 class AuthService implements AuthServiceInterface{
   final AuthRepositoryInterface authRepoInterface;

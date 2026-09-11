@@ -2,7 +2,7 @@ import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:get_it/get_it.dart';
-import 'package:sixvalley_vendor_app/utill/app_constants.dart';
+import 'package:cobes_marketplace_vendor/utill/app_constants.dart';
 
 class AppLocalization {
   AppLocalization(this.locale);

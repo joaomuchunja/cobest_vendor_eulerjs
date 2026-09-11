@@ -1,12 +1,12 @@
-import 'package:sixvalley_vendor_app/common/basewidgets/custom_snackbar_widget.dart';
-import 'package:sixvalley_vendor_app/data/model/response/base/api_response.dart';
-import 'package:sixvalley_vendor_app/data/model/response/response_model.dart';
-import 'package:sixvalley_vendor_app/features/emergency_contract/domain/models/emergency_contact_model.dart';
-import 'package:sixvalley_vendor_app/features/emergency_contract/domain/repositories/emergency_contract_repository_interface.dart';
-import 'package:sixvalley_vendor_app/features/emergency_contract/domain/services/emergency_contruct_service_interface.dart';
-import 'package:sixvalley_vendor_app/helper/api_checker.dart';
-import 'package:sixvalley_vendor_app/localization/language_constrants.dart';
-import 'package:sixvalley_vendor_app/main.dart';
+import 'package:cobes_marketplace_vendor/common/basewidgets/custom_snackbar_widget.dart';
+import 'package:cobes_marketplace_vendor/data/model/response/base/api_response.dart';
+import 'package:cobes_marketplace_vendor/data/model/response/response_model.dart';
+import 'package:cobes_marketplace_vendor/features/emergency_contract/domain/models/emergency_contact_model.dart';
+import 'package:cobes_marketplace_vendor/features/emergency_contract/domain/repositories/emergency_contract_repository_interface.dart';
+import 'package:cobes_marketplace_vendor/features/emergency_contract/domain/services/emergency_contruct_service_interface.dart';
+import 'package:cobes_marketplace_vendor/helper/api_checker.dart';
+import 'package:cobes_marketplace_vendor/localization/language_constrants.dart';
+import 'package:cobes_marketplace_vendor/main.dart';
 
 class EmergencyService implements EmergencyServiceInterface{
   EmergencyContractRepositoryInterface emergencyContractRepoInterface;

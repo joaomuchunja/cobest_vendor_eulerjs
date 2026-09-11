@@ -1,6 +1,6 @@
 import 'dart:math' as math;
 
-import 'package:sixvalley_vendor_app/features/product_details/enums/preview_type.dart';
+import 'package:cobes_marketplace_vendor/features/product_details/enums/preview_type.dart';
 
 class ProductHelper {
 

@@ -1,4 +1,4 @@
-package com.sixamtech.sixvalley.seller
+package com.cobes.marketplace.vendor
 
 import io.flutter.embedding.android.FlutterActivity
 

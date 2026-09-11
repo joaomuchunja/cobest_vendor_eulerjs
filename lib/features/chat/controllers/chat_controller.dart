@@ -8,20 +8,20 @@ import 'package:image_picker/image_picker.dart';
 import 'package:open_file/open_file.dart';
 import 'package:path_provider/path_provider.dart';
 import 'package:provider/provider.dart';
-import 'package:sixvalley_vendor_app/features/chat/domain/models/media_file_model.dart';
-import 'package:sixvalley_vendor_app/features/chat/domain/models/message_body.dart';
-import 'package:sixvalley_vendor_app/data/model/response/base/api_response.dart';
-import 'package:sixvalley_vendor_app/features/chat/domain/models/chat_model.dart';
-import 'package:sixvalley_vendor_app/features/chat/domain/models/message_model.dart';
-import 'package:sixvalley_vendor_app/features/chat/domain/services/chat_service_interface.dart';
-import 'package:sixvalley_vendor_app/features/splash/controllers/splash_controller.dart';
-import 'package:sixvalley_vendor_app/helper/api_checker.dart';
+import 'package:cobes_marketplace_vendor/features/chat/domain/models/media_file_model.dart';
+import 'package:cobes_marketplace_vendor/features/chat/domain/models/message_body.dart';
+import 'package:cobes_marketplace_vendor/data/model/response/base/api_response.dart';
+import 'package:cobes_marketplace_vendor/features/chat/domain/models/chat_model.dart';
+import 'package:cobes_marketplace_vendor/features/chat/domain/models/message_model.dart';
+import 'package:cobes_marketplace_vendor/features/chat/domain/services/chat_service_interface.dart';
+import 'package:cobes_marketplace_vendor/features/splash/controllers/splash_controller.dart';
+import 'package:cobes_marketplace_vendor/helper/api_checker.dart';
 import 'dart:async';
 import 'package:http/http.dart' as http;
-import 'package:sixvalley_vendor_app/helper/date_converter.dart';
-import 'package:sixvalley_vendor_app/helper/image_size_checker.dart';
-import 'package:sixvalley_vendor_app/main.dart';
-import 'package:sixvalley_vendor_app/utill/app_constants.dart';
+import 'package:cobes_marketplace_vendor/helper/date_converter.dart';
+import 'package:cobes_marketplace_vendor/helper/image_size_checker.dart';
+import 'package:cobes_marketplace_vendor/main.dart';
+import 'package:cobes_marketplace_vendor/utill/app_constants.dart';
 
 enum SenderType {
   customer,

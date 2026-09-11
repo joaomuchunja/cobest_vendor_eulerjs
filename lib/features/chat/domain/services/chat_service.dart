@@ -1,8 +1,8 @@
 import 'package:file_picker/file_picker.dart';
 import 'package:image_picker/image_picker.dart';
-import 'package:sixvalley_vendor_app/features/chat/domain/models/message_body.dart';
-import 'package:sixvalley_vendor_app/features/chat/domain/repositories/chat_repository_interface.dart';
-import 'package:sixvalley_vendor_app/features/chat/domain/services/chat_service_interface.dart';
+import 'package:cobes_marketplace_vendor/features/chat/domain/models/message_body.dart';
+import 'package:cobes_marketplace_vendor/features/chat/domain/repositories/chat_repository_interface.dart';
+import 'package:cobes_marketplace_vendor/features/chat/domain/services/chat_service_interface.dart';
 
 class ChatService implements ChatServiceInterface{
   ChatRepositoryInterface chatRepoInterface;

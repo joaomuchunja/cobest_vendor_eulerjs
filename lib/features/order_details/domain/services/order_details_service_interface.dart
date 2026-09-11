@@ -1,6 +1,6 @@
 import 'dart:io';
 
-import 'package:sixvalley_vendor_app/features/order_details/domain/models/order_setup_model.dart';
+import 'package:cobes_marketplace_vendor/features/order_details/domain/models/order_setup_model.dart';
 
 abstract class OrderDetailsServiceInterface{
   Future<dynamic> setUpOrder(OrderSetupModel orderSetUpModel);

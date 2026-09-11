@@ -2,20 +2,20 @@
 import 'package:flutter/material.dart';
 import 'package:percent_indicator/linear_percent_indicator.dart';
 import 'package:provider/provider.dart';
-import 'package:sixvalley_vendor_app/features/auth/controllers/auth_controller.dart';
-import 'package:sixvalley_vendor_app/features/delivery_man/domain/model/delivery_man_body.dart';
-import 'package:sixvalley_vendor_app/features/delivery_man/domain/model/top_delivery_man.dart';
-import 'package:sixvalley_vendor_app/helper/email_checker.dart';
-import 'package:sixvalley_vendor_app/localization/language_constrants.dart';
-import 'package:sixvalley_vendor_app/features/delivery_man/controllers/delivery_man_controller.dart';
-import 'package:sixvalley_vendor_app/main.dart';
-import 'package:sixvalley_vendor_app/utill/dimensions.dart';
-import 'package:sixvalley_vendor_app/utill/styles.dart';
-import 'package:sixvalley_vendor_app/common/basewidgets/custom_app_bar_widget.dart';
-import 'package:sixvalley_vendor_app/common/basewidgets/custom_button_widget.dart';
-import 'package:sixvalley_vendor_app/common/basewidgets/custom_snackbar_widget.dart';
-import 'package:sixvalley_vendor_app/features/delivery_man/screens/delivery_man_setup_screen.dart';
-import 'package:sixvalley_vendor_app/features/delivery_man/widgets/delivery_man_info_widget.dart';
+import 'package:cobes_marketplace_vendor/features/auth/controllers/auth_controller.dart';
+import 'package:cobes_marketplace_vendor/features/delivery_man/domain/model/delivery_man_body.dart';
+import 'package:cobes_marketplace_vendor/features/delivery_man/domain/model/top_delivery_man.dart';
+import 'package:cobes_marketplace_vendor/helper/email_checker.dart';
+import 'package:cobes_marketplace_vendor/localization/language_constrants.dart';
+import 'package:cobes_marketplace_vendor/features/delivery_man/controllers/delivery_man_controller.dart';
+import 'package:cobes_marketplace_vendor/main.dart';
+import 'package:cobes_marketplace_vendor/utill/dimensions.dart';
+import 'package:cobes_marketplace_vendor/utill/styles.dart';
+import 'package:cobes_marketplace_vendor/common/basewidgets/custom_app_bar_widget.dart';
+import 'package:cobes_marketplace_vendor/common/basewidgets/custom_button_widget.dart';
+import 'package:cobes_marketplace_vendor/common/basewidgets/custom_snackbar_widget.dart';
+import 'package:cobes_marketplace_vendor/features/delivery_man/screens/delivery_man_setup_screen.dart';
+import 'package:cobes_marketplace_vendor/features/delivery_man/widgets/delivery_man_info_widget.dart';
 
 class AddNewDeliveryManScreen extends StatefulWidget {
   final DeliveryMan? deliveryMan;

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:sixvalley_vendor_app/localization/models/language_model.dart';
-import 'package:sixvalley_vendor_app/utill/app_constants.dart';
+import 'package:cobes_marketplace_vendor/localization/models/language_model.dart';
+import 'package:cobes_marketplace_vendor/utill/app_constants.dart';
 
 class LanguageController with ChangeNotifier {
   int _selectIndex = 0;

@@ -1,8 +1,8 @@
 import 'package:dio/dio.dart';
-import 'package:sixvalley_vendor_app/data/datasource/remote/exception/api_error_handler.dart';
-import 'package:sixvalley_vendor_app/data/model/response/base/api_response.dart';
-import 'package:sixvalley_vendor_app/features/settings/domain/models/business_model.dart';
-import 'package:sixvalley_vendor_app/features/settings/domain/repositories/buisness_repository_interface.dart';
+import 'package:cobes_marketplace_vendor/data/datasource/remote/exception/api_error_handler.dart';
+import 'package:cobes_marketplace_vendor/data/model/response/base/api_response.dart';
+import 'package:cobes_marketplace_vendor/features/settings/domain/models/business_model.dart';
+import 'package:cobes_marketplace_vendor/features/settings/domain/repositories/buisness_repository_interface.dart';
 
 class BusinessRepository implements BusinessRepositoryInterface{
 

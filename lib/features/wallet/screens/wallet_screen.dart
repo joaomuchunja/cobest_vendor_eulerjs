@@ -1,19 +1,19 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:sixvalley_vendor_app/features/dashboard/screens/dashboard_screen.dart';
-import 'package:sixvalley_vendor_app/helper/color_helper.dart';
-import 'package:sixvalley_vendor_app/helper/price_converter.dart';
-import 'package:sixvalley_vendor_app/localization/language_constrants.dart';
-import 'package:sixvalley_vendor_app/features/profile/controllers/profile_controller.dart';
-import 'package:sixvalley_vendor_app/features/transaction/controllers/transaction_controller.dart';
-import 'package:sixvalley_vendor_app/utill/dimensions.dart';
-import 'package:sixvalley_vendor_app/common/basewidgets/custom_app_bar_widget.dart';
-import 'package:sixvalley_vendor_app/common/basewidgets/no_data_screen.dart';
-import 'package:sixvalley_vendor_app/features/transaction/screens/transaction_screen.dart';
-import 'package:sixvalley_vendor_app/features/wallet/widgets/wallet_card_widget.dart';
-import 'package:sixvalley_vendor_app/features/wallet/widgets/wallet_transaction_list_view_widget.dart';
-import 'package:sixvalley_vendor_app/features/wallet/widgets/withdraw_balance_widget.dart';
-import 'package:sixvalley_vendor_app/utill/styles.dart';
+import 'package:cobes_marketplace_vendor/features/dashboard/screens/dashboard_screen.dart';
+import 'package:cobes_marketplace_vendor/helper/color_helper.dart';
+import 'package:cobes_marketplace_vendor/helper/price_converter.dart';
+import 'package:cobes_marketplace_vendor/localization/language_constrants.dart';
+import 'package:cobes_marketplace_vendor/features/profile/controllers/profile_controller.dart';
+import 'package:cobes_marketplace_vendor/features/transaction/controllers/transaction_controller.dart';
+import 'package:cobes_marketplace_vendor/utill/dimensions.dart';
+import 'package:cobes_marketplace_vendor/common/basewidgets/custom_app_bar_widget.dart';
+import 'package:cobes_marketplace_vendor/common/basewidgets/no_data_screen.dart';
+import 'package:cobes_marketplace_vendor/features/transaction/screens/transaction_screen.dart';
+import 'package:cobes_marketplace_vendor/features/wallet/widgets/wallet_card_widget.dart';
+import 'package:cobes_marketplace_vendor/features/wallet/widgets/wallet_transaction_list_view_widget.dart';
+import 'package:cobes_marketplace_vendor/features/wallet/widgets/withdraw_balance_widget.dart';
+import 'package:cobes_marketplace_vendor/utill/styles.dart';
 
 class WalletScreen extends StatefulWidget {
   final bool fromNotification;

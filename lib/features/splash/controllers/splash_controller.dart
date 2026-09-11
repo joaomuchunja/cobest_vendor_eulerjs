@@ -1,13 +1,13 @@
 import 'dart:async';
 
 import 'package:flutter/material.dart';
-import 'package:sixvalley_vendor_app/data/model/response/base/api_response.dart';
-import 'package:sixvalley_vendor_app/features/maintenance/maintenance_screen.dart';
-import 'package:sixvalley_vendor_app/features/splash/domain/models/business_pages_model.dart';
-import 'package:sixvalley_vendor_app/features/splash/domain/models/config_model.dart';
-import 'package:sixvalley_vendor_app/features/splash/domain/services/splash_service_interface.dart';
-import 'package:sixvalley_vendor_app/helper/api_checker.dart';
-import 'package:sixvalley_vendor_app/main.dart';
+import 'package:cobes_marketplace_vendor/data/model/response/base/api_response.dart';
+import 'package:cobes_marketplace_vendor/features/maintenance/maintenance_screen.dart';
+import 'package:cobes_marketplace_vendor/features/splash/domain/models/business_pages_model.dart';
+import 'package:cobes_marketplace_vendor/features/splash/domain/models/config_model.dart';
+import 'package:cobes_marketplace_vendor/features/splash/domain/services/splash_service_interface.dart';
+import 'package:cobes_marketplace_vendor/helper/api_checker.dart';
+import 'package:cobes_marketplace_vendor/main.dart';
 
 class SplashController extends ChangeNotifier {
   final SplashServiceInterface serviceInterface;

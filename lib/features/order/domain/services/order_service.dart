@@ -1,7 +1,7 @@
 
 
-import 'package:sixvalley_vendor_app/features/order/domain/repositories/order_repository_interface.dart';
-import 'package:sixvalley_vendor_app/features/order/domain/services/order_service_interface.dart';
+import 'package:cobes_marketplace_vendor/features/order/domain/repositories/order_repository_interface.dart';
+import 'package:cobes_marketplace_vendor/features/order/domain/services/order_service_interface.dart';
 
 class OrderService implements OrderServiceInterface{
   final OrderRepositoryInterface orderRepoInterface;

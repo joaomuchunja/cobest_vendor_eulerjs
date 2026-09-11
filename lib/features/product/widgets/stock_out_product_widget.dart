@@ -1,18 +1,18 @@
 
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:sixvalley_vendor_app/features/product/domain/models/product_model.dart';
-import 'package:sixvalley_vendor_app/localization/language_constrants.dart';
-import 'package:sixvalley_vendor_app/localization/controllers/localization_controller.dart';
-import 'package:sixvalley_vendor_app/features/product/controllers/product_controller.dart';
-import 'package:sixvalley_vendor_app/utill/dimensions.dart';
-import 'package:sixvalley_vendor_app/utill/images.dart';
-import 'package:sixvalley_vendor_app/common/basewidgets/no_data_screen.dart';
-import 'package:sixvalley_vendor_app/common/basewidgets/product_widget.dart';
-import 'package:sixvalley_vendor_app/common/basewidgets/title_row_widget.dart';
-import 'package:sixvalley_vendor_app/features/refund/screens/refund_screen.dart';
-import 'package:sixvalley_vendor_app/features/product/screens/stock_out_product_screen.dart';
-import 'package:sixvalley_vendor_app/features/product/widgets/stockout_product_card_widget.dart';
+import 'package:cobes_marketplace_vendor/features/product/domain/models/product_model.dart';
+import 'package:cobes_marketplace_vendor/localization/language_constrants.dart';
+import 'package:cobes_marketplace_vendor/localization/controllers/localization_controller.dart';
+import 'package:cobes_marketplace_vendor/features/product/controllers/product_controller.dart';
+import 'package:cobes_marketplace_vendor/utill/dimensions.dart';
+import 'package:cobes_marketplace_vendor/utill/images.dart';
+import 'package:cobes_marketplace_vendor/common/basewidgets/no_data_screen.dart';
+import 'package:cobes_marketplace_vendor/common/basewidgets/product_widget.dart';
+import 'package:cobes_marketplace_vendor/common/basewidgets/title_row_widget.dart';
+import 'package:cobes_marketplace_vendor/features/refund/screens/refund_screen.dart';
+import 'package:cobes_marketplace_vendor/features/product/screens/stock_out_product_screen.dart';
+import 'package:cobes_marketplace_vendor/features/product/widgets/stockout_product_card_widget.dart';
 
 
 class StockOutProductView extends StatelessWidget {

@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:screenshot/screenshot.dart';
-import 'package:sixvalley_vendor_app/features/pos/domain/models/invoice_model.dart';
-import 'package:sixvalley_vendor_app/features/shop/domain/models/shop_model.dart';
-import 'package:sixvalley_vendor_app/helper/date_converter.dart';
-import 'package:sixvalley_vendor_app/localization/language_constrants.dart';
-import 'package:sixvalley_vendor_app/utill/dimensions.dart';
-import 'package:sixvalley_vendor_app/utill/styles.dart';
+import 'package:cobes_marketplace_vendor/features/pos/domain/models/invoice_model.dart';
+import 'package:cobes_marketplace_vendor/features/shop/domain/models/shop_model.dart';
+import 'package:cobes_marketplace_vendor/helper/date_converter.dart';
+import 'package:cobes_marketplace_vendor/localization/language_constrants.dart';
+import 'package:cobes_marketplace_vendor/utill/dimensions.dart';
+import 'package:cobes_marketplace_vendor/utill/styles.dart';
 
 class InvoiceDialogWidget extends StatelessWidget {
   final InvoiceModel? invoice;

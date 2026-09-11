@@ -1,5 +1,5 @@
-import 'package:sixvalley_vendor_app/data/model/image_full_url.dart';
-import 'package:sixvalley_vendor_app/features/addProduct/domain/models/image_model.dart';
+import 'package:cobes_marketplace_vendor/data/model/image_full_url.dart';
+import 'package:cobes_marketplace_vendor/features/addProduct/domain/models/image_model.dart';
 
 class ProductImagesModel {
   List<ImagesStorage>? imagesStorage;

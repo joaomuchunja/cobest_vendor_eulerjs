@@ -4,11 +4,11 @@ import 'dart:io';
 
 import 'package:http/http.dart' as http;
 import 'package:image_picker/image_picker.dart';
-import 'package:sixvalley_vendor_app/data/model/response/base/api_response.dart';
-import 'package:sixvalley_vendor_app/features/shop/domain/models/shop_model.dart';
-import 'package:sixvalley_vendor_app/features/shop/domain/models/vacation_model.dart';
-import 'package:sixvalley_vendor_app/features/shop/domain/models/withdrawal_method_model.dart';
-import 'package:sixvalley_vendor_app/interface/repository_interface.dart';
+import 'package:cobes_marketplace_vendor/data/model/response/base/api_response.dart';
+import 'package:cobes_marketplace_vendor/features/shop/domain/models/shop_model.dart';
+import 'package:cobes_marketplace_vendor/features/shop/domain/models/vacation_model.dart';
+import 'package:cobes_marketplace_vendor/features/shop/domain/models/withdrawal_method_model.dart';
+import 'package:cobes_marketplace_vendor/interface/repository_interface.dart';
 
 abstract class ShopRepositoryInterface implements RepositoryInterface{
   Future<ApiResponse> getShop();

@@ -1,8 +1,8 @@
 import 'dart:io';
 
-import 'package:sixvalley_vendor_app/features/order_details/domain/models/order_setup_model.dart';
-import 'package:sixvalley_vendor_app/features/order_details/domain/repositories/order_details_repository_interface.dart';
-import 'package:sixvalley_vendor_app/features/order_details/domain/services/order_details_service_interface.dart';
+import 'package:cobes_marketplace_vendor/features/order_details/domain/models/order_setup_model.dart';
+import 'package:cobes_marketplace_vendor/features/order_details/domain/repositories/order_details_repository_interface.dart';
+import 'package:cobes_marketplace_vendor/features/order_details/domain/services/order_details_service_interface.dart';
 
 class OrderDetailsService implements OrderDetailsServiceInterface {
   final OrderDetailsRepositoryInterface orderDetailsRepositoryInterface;

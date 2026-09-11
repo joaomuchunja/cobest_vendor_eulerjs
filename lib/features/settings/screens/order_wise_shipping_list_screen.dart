@@ -1,21 +1,21 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:sixvalley_vendor_app/localization/language_constrants.dart';
-import 'package:sixvalley_vendor_app/features/auth/controllers/auth_controller.dart';
-import 'package:sixvalley_vendor_app/features/settings/controllers/business_controller.dart';
-import 'package:sixvalley_vendor_app/localization/controllers/localization_controller.dart';
-import 'package:sixvalley_vendor_app/features/shipping/controllers/shipping_controller.dart';
-import 'package:sixvalley_vendor_app/theme/controllers/theme_controller.dart';
-import 'package:sixvalley_vendor_app/utill/dimensions.dart';
-import 'package:sixvalley_vendor_app/utill/images.dart';
-import 'package:sixvalley_vendor_app/utill/styles.dart';
-import 'package:sixvalley_vendor_app/common/basewidgets/custom_app_bar_widget.dart';
-import 'package:sixvalley_vendor_app/common/basewidgets/custom_dialog_widget.dart';
-import 'package:sixvalley_vendor_app/common/basewidgets/no_data_screen.dart';
-import 'package:sixvalley_vendor_app/features/settings/screens/order_wise_shipping_add_screen.dart';
-import 'package:sixvalley_vendor_app/features/settings/widgets/order_wise_shipping_card_widget.dart';
-import 'package:sixvalley_vendor_app/features/shipping/widgets/drop_down_for_shipping_type_widget.dart';
-import 'package:sixvalley_vendor_app/features/shop/widgets/animated_floating_button_widget.dart';
+import 'package:cobes_marketplace_vendor/localization/language_constrants.dart';
+import 'package:cobes_marketplace_vendor/features/auth/controllers/auth_controller.dart';
+import 'package:cobes_marketplace_vendor/features/settings/controllers/business_controller.dart';
+import 'package:cobes_marketplace_vendor/localization/controllers/localization_controller.dart';
+import 'package:cobes_marketplace_vendor/features/shipping/controllers/shipping_controller.dart';
+import 'package:cobes_marketplace_vendor/theme/controllers/theme_controller.dart';
+import 'package:cobes_marketplace_vendor/utill/dimensions.dart';
+import 'package:cobes_marketplace_vendor/utill/images.dart';
+import 'package:cobes_marketplace_vendor/utill/styles.dart';
+import 'package:cobes_marketplace_vendor/common/basewidgets/custom_app_bar_widget.dart';
+import 'package:cobes_marketplace_vendor/common/basewidgets/custom_dialog_widget.dart';
+import 'package:cobes_marketplace_vendor/common/basewidgets/no_data_screen.dart';
+import 'package:cobes_marketplace_vendor/features/settings/screens/order_wise_shipping_add_screen.dart';
+import 'package:cobes_marketplace_vendor/features/settings/widgets/order_wise_shipping_card_widget.dart';
+import 'package:cobes_marketplace_vendor/features/shipping/widgets/drop_down_for_shipping_type_widget.dart';
+import 'package:cobes_marketplace_vendor/features/shop/widgets/animated_floating_button_widget.dart';
 
 class OrderWiseShippingScreen extends StatefulWidget {
   const OrderWiseShippingScreen({Key? key}) : super(key: key);

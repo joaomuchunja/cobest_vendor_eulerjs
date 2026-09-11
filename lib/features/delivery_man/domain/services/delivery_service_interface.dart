@@ -1,5 +1,5 @@
 import 'package:image_picker/image_picker.dart';
-import 'package:sixvalley_vendor_app/features/delivery_man/domain/model/delivery_man_body.dart';
+import 'package:cobes_marketplace_vendor/features/delivery_man/domain/model/delivery_man_body.dart';
 
 abstract class DeliveryServiceInterface {
   Future<dynamic> getDeliveryManList();

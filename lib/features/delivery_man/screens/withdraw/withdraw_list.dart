@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:sixvalley_vendor_app/features/delivery_man/controllers/delivery_man_controller.dart';
-import 'package:sixvalley_vendor_app/features/delivery_man/domain/model/delivery_man_withdraw_model.dart';
-import 'package:sixvalley_vendor_app/utill/dimensions.dart';
-import 'package:sixvalley_vendor_app/common/basewidgets/no_data_screen.dart';
-import 'package:sixvalley_vendor_app/features/delivery_man/screens/withdraw/withdraw_card.dart';
+import 'package:cobes_marketplace_vendor/features/delivery_man/controllers/delivery_man_controller.dart';
+import 'package:cobes_marketplace_vendor/features/delivery_man/domain/model/delivery_man_withdraw_model.dart';
+import 'package:cobes_marketplace_vendor/utill/dimensions.dart';
+import 'package:cobes_marketplace_vendor/common/basewidgets/no_data_screen.dart';
+import 'package:cobes_marketplace_vendor/features/delivery_man/screens/withdraw/withdraw_card.dart';
 
 
 

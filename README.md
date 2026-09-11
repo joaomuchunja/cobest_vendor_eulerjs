@@ -1,4 +1,4 @@
-# sixvalley_vendor_app
+# cobes_marketplace_vendor
 
 A new Flutter application.
 

@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:google_maps_flutter/google_maps_flutter.dart';
 import 'package:provider/provider.dart';
-import 'package:sixvalley_vendor_app/features/order/domain/models/order_model.dart';
-import 'package:sixvalley_vendor_app/features/order_details/controllers/order_details_controller.dart';
-import 'package:sixvalley_vendor_app/utill/dimensions.dart';
+import 'package:cobes_marketplace_vendor/features/order/domain/models/order_model.dart';
+import 'package:cobes_marketplace_vendor/features/order_details/controllers/order_details_controller.dart';
+import 'package:cobes_marketplace_vendor/utill/dimensions.dart';
 
 class ShowOnMapDialogWidget extends StatelessWidget {
   final BillingAddressData? billingAddressData;

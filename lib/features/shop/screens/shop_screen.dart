@@ -1,18 +1,18 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_switch/flutter_switch.dart';
 import 'package:provider/provider.dart';
-import 'package:sixvalley_vendor_app/features/dashboard/screens/dashboard_screen.dart';
-import 'package:sixvalley_vendor_app/features/shop/screens/other_setup_screen.dart';
-import 'package:sixvalley_vendor_app/features/shop/screens/payment_info_screen.dart';
-import 'package:sixvalley_vendor_app/features/shop/widgets/my_shop_appbar.dart';
-import 'package:sixvalley_vendor_app/features/shop/widgets/shop_details_widget.dart';
-import 'package:sixvalley_vendor_app/localization/language_constrants.dart';
-import 'package:sixvalley_vendor_app/features/profile/controllers/profile_controller.dart';
-import 'package:sixvalley_vendor_app/features/shop/controllers/shop_controller.dart';
-import 'package:sixvalley_vendor_app/features/splash/controllers/splash_controller.dart';
-import 'package:sixvalley_vendor_app/utill/dimensions.dart';
-import 'package:sixvalley_vendor_app/utill/styles.dart';
-import 'package:sixvalley_vendor_app/common/basewidgets/custom_loader_widget.dart';
+import 'package:cobes_marketplace_vendor/features/dashboard/screens/dashboard_screen.dart';
+import 'package:cobes_marketplace_vendor/features/shop/screens/other_setup_screen.dart';
+import 'package:cobes_marketplace_vendor/features/shop/screens/payment_info_screen.dart';
+import 'package:cobes_marketplace_vendor/features/shop/widgets/my_shop_appbar.dart';
+import 'package:cobes_marketplace_vendor/features/shop/widgets/shop_details_widget.dart';
+import 'package:cobes_marketplace_vendor/localization/language_constrants.dart';
+import 'package:cobes_marketplace_vendor/features/profile/controllers/profile_controller.dart';
+import 'package:cobes_marketplace_vendor/features/shop/controllers/shop_controller.dart';
+import 'package:cobes_marketplace_vendor/features/splash/controllers/splash_controller.dart';
+import 'package:cobes_marketplace_vendor/utill/dimensions.dart';
+import 'package:cobes_marketplace_vendor/utill/styles.dart';
+import 'package:cobes_marketplace_vendor/common/basewidgets/custom_loader_widget.dart';
 
 import '../../../main.dart';
 
