@@ -71,26 +71,9 @@ Future<void> main() async {
   HttpOverrides.global = MyHttpOverrides();
   WidgetsFlutterBinding.ensureInitialized();
 
-  // if(Firebase.apps.isEmpty){
-  //   if(Platform.isAndroid){
-  //     try{
-  //       ///todo you need to configure that firebase Option with your own firebase to run your app
-  //       await Firebase.initializeApp(
-  //         name: 'your_project_name_here',
-  //         options: const FirebaseOptions(
-  //           apiKey: "current_key here",
-  //           projectId: "mobilesdk_app_id here",
-  //           messagingSenderId: "project_number here",
-  //           appId: "project_id here"
-  //         )
-  //       );
-  //     } finally{
-  //       await Firebase.initializeApp();
-  //     }
-  //   }else {
-  //     await Firebase.initializeApp();
-  //   }
-  // }
+  if (Firebase.apps.isEmpty) {
+    await Firebase.initializeApp();
+  }
   await FlutterDownloader.initialize(debug: true , ignoreSsl: true);
   await di.init();
 

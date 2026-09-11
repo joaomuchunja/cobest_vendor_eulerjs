@@ -26,6 +26,11 @@ class ApiErrorHandler {
               errorDescription = "Receive timeout in connection with API server";
               break;
             case DioExceptionType.badResponse:
+              if (error.response?.data is! Map) {
+                errorDescription =
+                    "Failed to load data - status code: ${error.response?.statusCode}";
+                break;
+              }
               switch (error.response!.statusCode) {
               case 403:
                 if (kDebugMode) {
